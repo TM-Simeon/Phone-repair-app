@@ -1,3 +1,29 @@
 .we-do{
 	text-align: center;
 }
+
+.phone-samples {
+	height: 145px;
+	background: grey;
+	margin-top: 55px;
+}
+#booking {
+	text-align: center;
+}
+.booking {
+	text-align: center;
+}
+#service_picture{
+	text-align: center;
+}
+.service_picture {
+	min-height: 45px;
+	min-width: 45px;
+	background: grey;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+}
+#find_button {
+	margin-top: 20px;
+}

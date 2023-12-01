@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom';
 const Footer = () => {
 	return (
 		// <img src="../logo.png">
-		<footer>
+		<footer className="footer">
 			<img src={Image} alt="logo"/>
 			<h4>Effortless Repairs at Your Fingertips</h4>
 			<img src={Twitter} alt="twitter icon"/>

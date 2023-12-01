@@ -12,6 +12,19 @@ const Home = () => {
 				<button>Find a technician</button>
 				</Link>
 			</div>
+			<div className="phone-samples">
+
+			</div>
+			<div className="booking">
+				<h1 id="booking">BOOK A TECHNICIAN IN THREE STEPS</h1>
+				<div id="service_picture">
+					<span className="service_picture"></span>
+					<span className="service_picture"></span>
+					<span className="service_picture"></span>
+
+				</div>
+				<button id="find_button">find a technician</button>
+			</div>
 		</div>
 	)
 }
