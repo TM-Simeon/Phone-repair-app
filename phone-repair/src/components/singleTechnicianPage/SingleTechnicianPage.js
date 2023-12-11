@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link, useParams, useLocation } from 'react-router-dom';
+import React, { useLocation } from 'react';
+// import { Link, useParams, useLocation } from 'react-router-dom';
 
 const SingleTechnicianPage = () => {
   // const { id } = useParams();
