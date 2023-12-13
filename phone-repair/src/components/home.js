@@ -49,19 +49,51 @@ const Home = () => {
 
 				</div>
 			</div>
-			<div id="wrapper">
 			<div className="section">
-				<div id="container">
-				<p> if i put some content here</p>
+				<div id="find_your">
+					<div id="find_your_nearby_technician"><h1>Find your nearby Phone Technician</h1></div>
+					<div id="find_a_technician"><h2>Find a technician</h2></div>
+				</div>
+				<div id="why_us">
+					<div id="box1"></div>
+					<div id="box2">
+						<h1>WHY CHOOSE US</h1>
+						<div id="inner_box1">
+							<div id="circle"></div>
+							<div id="text_content">
+								<h2 id="heading">Certified Technicians</h2>
+								<p id="text">professionals who have undergone specific training <br></br>and testing to acquire recognized certifications in their field. <br></br>These certifications demonstrate a level of expertise<br></br> and competence in performing tasks related to their profefssion </p>
+							</div>
+							
+						</div>
+						<div id="inner_box2">
+							<div id="circle"></div>
+							<div id="text_content">
+								<h2 id="heading">Certified Technicians</h2>
+								<p id="text">professionals who have undergone specific training <br></br>and testing to acquire recognized certifications in their field. <br></br>These certifications demonstrate a level of expertise<br></br> and competence in performing tasks related to their profefssion </p>
+							</div>
+							
+						</div>
+						<div id="inner_box2">
+							<div id="circle"></div>
+							<div id="text_content">
+								<h2 id="heading">Certified Technicians</h2>
+								<p id="text">professionals who have undergone specific training <br></br>and testing to acquire recognized certifications in their field. <br></br>These certifications demonstrate a level of expertise<br></br> and competence in performing tasks related to their profefssion </p>
+							</div>
+							
+						</div>
+						<div id="inner_box1">
+							<div id="circle"></div>
+							<div id="text_content">
+								<h2 id="heading">Time Management</h2>
+								<p id="text">Efficient time management is a key feature, allowing<br></br>technicians to complete repairs within a reasonable<br></br>timeframe and minimize downtime for the customer</p>
+							</div>
+							
+						</div>
+
+					</div>
 
 				</div>
-				<div id="container2">
-				<p> if i put some content here</p>
-
-				</div>
-
-				
-			</div>
 			</div>
 		</div>
 	)

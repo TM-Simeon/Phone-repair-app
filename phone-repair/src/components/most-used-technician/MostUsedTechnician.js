@@ -7,7 +7,7 @@ const MostUsedTechnician = () => {
     <div className='flex flex-wrap justify-between items-center'>
       {Technicians.map(({ id, img, name, experience, location, stars }) => (
         <Link
-          to={`/singleTechnicianPage/${id}`}
+          to={`/SingleTechnicianPage`}
           state={{ id, img, name, experience, location, stars }}
         >
           <div

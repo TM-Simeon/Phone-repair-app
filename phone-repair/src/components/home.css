@@ -50,26 +50,100 @@
 }
 
 .section {
-	position: relative;
-	min-height: 300px;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 50px;
+	/*position: relative;*/
+	min-height: 900px;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	/*margin-bottom: 50px;*/
 	margin-top: 50px;
+	/*z-index: 0;*/
+	/*background: gold;*/
+	margin-bottom: 70px;
 }
 
-#container {
+#find_your {
+	display: flex;
 	position: absolute;
-	min-height: 50px;
-	background: grey;
+	min-height: 80px;
 	width: 80%;
-	z-index: 2;
+	background: #4d4c4c;
+	margin-left: 10%;
+	z-index: 1;
+	border-radius: 5px;
+	align-items: center;
+	justify-items: center;
+	/*vertical-align: middle;*/
+}
+#find_your_nearby_technician{
+	display: inline-block;
+	/*vertical-align: middle;*/
+	margin-left: 10%;
+
+}
+#find_a_technician{
+	display: inline-block;
+	/*vertical-align: middle;*/
+	background: #91908c;
+	/*min-width: 200px;*/
+	padding: 10px;
+	float: right;
+	margin-right: 20%;
+	text-align: center;
+	border-radius: 25px;
+	margin-top: 5px;
 	margin-left: 10%;
 }
-#container2 {
+#why_us {
 	position: absolute;
-	min-height: 200px;
-	background: blue;
+	min-height: 880px;
+	top:  1050px;
 	width: 100%;
-	margin-top: 45px;
+	background: #b8b7b4;
+	/*margin-left: 10%;*/
+	/*margin-bottom: 50px;*/
+}
+#box1 {
+	min-height: 500px;
+	min-width: 20%;
+	display: inline-block;
+	background: #4d4c4c;
+	margin-top: 170px;
+	margin-left: 5%;
+	border-radius: 20px;
+}
+#box2 {
+	/*background: gray;*/
+	min-height: 400px;
+	display: inline-block;
+	width: 70%;
+	margin-left: 5%;
+	vertical-align: top;
+	margin-top: 80px;
+
+}
+#inner_box1{
+	/*background: yellow;*/
+}
+#inner_box2{
+	margin-left: 20%;
+}
+#circle {
+	min-height: 80px;
+	min-width: 80px;
+	display: inline-block;
+	background: #4d4c4c;
+	border-radius: 50%;
+	margin-top: 20px;
+	/*display: absolute;*/
+	vertical-align: top;
+}
+#text_content{
+	display: inline-block;
+	min-width: 50%;
+	min-height: 80px;
+	/*background: gold;*/
+	margin-left: 15px;
+}
+#heading{
+	/*line-height: 5px;*/
 }
