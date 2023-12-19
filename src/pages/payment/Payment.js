@@ -74,9 +74,9 @@ const Payment = () => {
             </label>
             <br></br>
           </div>
-          <div className='mt-[30px]'>
+          <div className='mt-[30px] mb-[50px]'>
             {debit && (
-              <form>
+              <form className='relative'>
                 <div className='bg-[#DEE0FA] pl-[36px] pt-[36px] pb-[50px] rounded-[20px] w-[580px]'>
                   {' '}
                   <div className='pb-[23px] w-[500px]'>
@@ -94,14 +94,14 @@ const Payment = () => {
                     />
                   </div>
                   <div className='flex gap-[20px]'>
-                    <div className='w-[200px]'>
+                    <div className='w-[240px]'>
                       <Input
                         inputPlaceholder={'Expire Date'}
                         borderNone
                         WhiteSmokebgColor
                       />
                     </div>
-                    <div className='w-[200px]'>
+                    <div className='w-[240px]'>
                       <Input
                         inputPlaceholder={'CVV Number'}
                         borderNone
@@ -110,24 +110,23 @@ const Payment = () => {
                     </div>
                   </div>
                 </div>
-                <div className='flex gap-[20px] pb-[50px]bg-[#EC8206]'>
-                  <div className='w-[150px]'>
+                <div className='absolute bottom-[-15px] flex gap-[20px] pl-[36px]'>
+                  <div className='w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
                     <Button
                       buttonText={'Cancel'}
-                      buttonColor={'#262A4F'}
-                      width='w-[150px]'
+                      buttonColor={'#A42020'}
+                      width='w-[240px]'
                       height='h-[40px]'
                     />
                   </div>
-                  <div className='w-[150px]'>
+                  <div className='w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
                     <Button
                       buttonText={'Proceed'}
-                      buttonColor='#262A4F'
-                      width='w-[150px]'
+                      buttonColor={'#446F35'}
+                      width='w-[240px]'
                       height='h-[40px]'
                     />
                   </div>
-                  <Button buttonText={'Make payment'} buttonColor={'#EC8206'} />
                 </div>
               </form>
             )}
