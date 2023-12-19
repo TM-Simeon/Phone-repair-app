@@ -10,6 +10,8 @@ const Button = ({
     <button
       className={`bg-[${buttonColor}] rounded-full text-white ${width} ${height} text-sm`}
     >
+      {/* bg-[#A42020] */}
+      {/* bg-[#446F35] */}
       {buttonText}
     </button>
   );

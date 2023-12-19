@@ -1,11 +1,29 @@
 import React, { useState } from 'react';
-// import Modal from '@mui/material/Modal';
+import Modal from '@mui/material/Modal';
 import Button from '../../components/button/Button';
 import Input from '../../components/find-a-technician/input/Input';
+import paymentStars from "../../images/paymentStars.png"
 import './Payment.css';
 
 const Payment = () => {
   const [debit, setDebit] = useState(true);
+  // const [payment, setPayment] = useState(false);
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const deleteArtworkFunc = (id) => {
+    // dispatch(deleteArtistRequest());
+    // dispatch(deleteArtistRequest({ artist_id: id }));
+    setOpen(false);
+  };
+  const paymentSuccessFunc = () => {
+    setOpen(true);
+    // setPayment(true);
+  };
   return (
     <div className=''>
       <div className='grid grid-cols-12 justify-between payment-gradient-css'>
@@ -160,13 +178,70 @@ const Payment = () => {
               <p className='text-base font-bold'>0816 525 6611</p>
             </div>
             <div className='text-base font-bold mt-[50px]'>Change Address</div>
-            <div className='w-[120px] mx-auto mt-[90px]'>
+            <div
+              className='w-[120px] mx-auto mt-[90px]'
+              onClick={paymentSuccessFunc}
+            >
               <Button
                 buttonText={'Make payment'}
                 buttonColor={'#EC8206'}
                 width='w-[160px]'
                 height='h-[50px]'
               />
+            </div>
+            <div>
+              {open && (
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby='parent-modal-title'
+                  aria-describedby='parent-modal-description'
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                  }}
+                  className=' bg-opacity-5'
+                >
+                  <div
+                    //  sx={style}
+                    className='flex h-[50vh] w-[500px] flex-col justify-center rounded-md bg-[#FFFBF6] lg:mx-8'
+                  >
+                    <div className='mx-auto w-[300px]'>
+                      <p className='text-end text-base lg:text-[27px] text-light text-primary'>
+                        Payment sucessful
+                      </p>
+                    </div>
+                    <div className='font-bold text-[23px] text-primary text-center pt-[25px] pb-[5px]'>
+                      Tell us about your experience
+                    </div>
+                    <p className='text-[#000] text-base text-center w-[130px] mx-auto'>
+                      Tap a star to rate the website
+                    </p>
+                    <div className='mx-auto my-3'>
+                      <img src={paymentStars} alt="img" className='w-[150px]'/>
+                    </div>
+                    <div className='mb-8 flex flex-col items-center justify-center gap-[10px] lg:flex-row lg:gap-[15px]'>
+                      <div className='w-[100px]' onClick={handleClose}>
+                        <Button
+                          buttonText={'Cancel'}
+                          buttonColor={'#A42020'}
+                          width='w-[100px]'
+                          height='h-[30px]'
+                        />
+                      </div>
+                      <div className='w-[100px]'>
+                        <Button
+                          buttonText={'Submit'}
+                          buttonColor={'#446F35'}
+                          width='w-[100px]'
+                          height='h-[30px]'
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </Modal>
+              )}
             </div>
           </div>
         </div>
