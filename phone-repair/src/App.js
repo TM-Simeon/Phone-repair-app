@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/header';
+import Header from './components/Header';
 import Footer from './components/footer';
 import Home from './components/home';
 import Technician from './components/technician';
 import Support from './components/support';
 import SingleTechnicianPage from './components/singleTechnicianPage/SingleTechnicianPage';
 import './App.css'
+import Payment from './pages/payment/Payment';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
               path='/singleTechnicianPage'
               element={<SingleTechnicianPage />}
             />
+            <Route exact path='/payment' element={<Payment />} />
             <Route exact path='/support' element={<Support />} />
           </Routes>
         </div>

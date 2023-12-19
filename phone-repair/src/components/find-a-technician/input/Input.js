@@ -5,6 +5,9 @@ const Input = ({
   inputValue,
   inputPlaceholder,
   onChange,
+  transparentBg,
+  borderNone,
+  WhiteSmokebgColor,
 }) => {
   // const [inputFields, setInputFields] = useState({
   //   inputName,
@@ -27,7 +30,15 @@ const Input = ({
           value={inputValue}
           placeholder={inputPlaceholder}
           // width: "600px", height: "60px",
-          className='w-full p-[9px_0px_10px_16px] bg-[#ffff] text-[#6F6F6F] placeholder-[#6F6F6F] border border-[#6F6F6F] text-[16px] rounded-full pl-[20px]'
+          className={`w-full p-[9px_0px_10px_16px] ${
+            transparentBg
+              ? 'bg-transparent'
+              : WhiteSmokebgColor
+              ? 'bg-[#EFEFEF]'
+              : 'bg-[#ffff]'
+          }  text-[#6F6F6F] placeholder-[#6F6F6F] border ${
+            borderNone ? '' : 'border-[#6F6F6F]'
+          } text-[14px] rounded-full pl-[20px]`}
           onChange={onChange}
         />
       </div>
