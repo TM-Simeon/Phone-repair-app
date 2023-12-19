@@ -8,6 +8,7 @@ import Support from './components/support';
 import SingleTechnicianPage from './components/singleTechnicianPage/SingleTechnicianPage';
 import './App.css'
 import Payment from './pages/payment/Payment';
+import ProductPreviewAndRatings from './pages/product-preview-ratings/ProductPreviewAndRatings';
 
 const App = () => {
   return (
@@ -24,6 +25,11 @@ const App = () => {
               element={<SingleTechnicianPage />}
             />
             <Route exact path='/payment' element={<Payment />} />
+            <Route
+              exact
+              path='/product-preview-and-ratings'
+              element={<ProductPreviewAndRatings />}
+            />
             <Route exact path='/support' element={<Support />} />
           </Routes>
         </div>
