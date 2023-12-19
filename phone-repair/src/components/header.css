@@ -9,6 +9,7 @@
   top: 0;
   width: 100%;
   z-index: 99;
+  min-height: 80px;
 }
 
 .logo {
@@ -16,6 +17,8 @@
   color: #333;
   font-size: 1.5rem;
   font-weight: bold;
+  position: fixed;
+
 }
 
 .nav-links {
