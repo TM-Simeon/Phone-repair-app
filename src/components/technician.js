@@ -1,7 +1,7 @@
 
 import React from 'react';
 import FindATechnician from './find-a-technician/FindATechnician';
-import Frame326 from '../images/Frame326.png';
+import findAtechnicianImg from '../images/findAtechnicianImg.png';
 import './technician.css';
 import MostUsedTechnician from './most-used-technician/MostUsedTechnician';
 
@@ -18,7 +18,7 @@ const Technician = () => {
               <FindATechnician />
             </div>
             <div>
-              <img src={Frame326} alt='img' className='h-[473px] w-[602px]' />
+              <img src={findAtechnicianImg} alt='img' className='h-[473px] w-[602px]' />
             </div>
           </div>
         </div>
