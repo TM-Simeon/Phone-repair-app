@@ -1,29 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Modal from '@mui/material/Modal';
+import { toast } from 'react-toastify';
 import Button from '../../components/button/Button';
 import Input from '../../components/find-a-technician/input/Input';
 import paymentStars from "../../images/paymentStars.png"
 import './Payment.css';
 
 const Payment = () => {
+  const navigate = useNavigate();
   const [debit, setDebit] = useState(true);
   // const [payment, setPayment] = useState(false);
   const [open, setOpen] = useState(false);
-  const handleOpen = () => {
-    setOpen(true);
-  };
   const handleClose = () => {
-    setOpen(false);
-  };
-  const deleteArtworkFunc = (id) => {
-    // dispatch(deleteArtistRequest());
-    // dispatch(deleteArtistRequest({ artist_id: id }));
     setOpen(false);
   };
   const paymentSuccessFunc = () => {
     setOpen(true);
     // setPayment(true);
   };
+  const submittedFeedbackFunc =()=>{
+    toast.success('Thank you for your feedback', {
+      duration: 3000,
+      // position: 'bottom-right',
+    });
+    setOpen(false);
+    navigate('/technician');
+  }
+  // useEffect(() => {
+  //   // if () {
+  //     toast.success('Thank you for your feedback', {
+  //       duration: 3000,
+  //       // position: 'bottom-right',
+  //     });
+  //   // }
+  // }, []);
   return (
     <div className=''>
       <div className='grid grid-cols-12 justify-between payment-gradient-css'>
@@ -219,7 +230,7 @@ const Payment = () => {
                       Tap a star to rate the website
                     </p>
                     <div className='mx-auto my-3'>
-                      <img src={paymentStars} alt="img" className='w-[150px]'/>
+                      <img src={paymentStars} alt='img' className='w-[150px]' />
                     </div>
                     <div className='mb-8 flex flex-col items-center justify-center gap-[10px] lg:flex-row lg:gap-[15px]'>
                       <div className='w-[100px]' onClick={handleClose}>
@@ -230,7 +241,7 @@ const Payment = () => {
                           height='h-[30px]'
                         />
                       </div>
-                      <div className='w-[100px]'>
+                      <div className='w-[100px]' onClick={submittedFeedbackFunc}>
                         <Button
                           buttonText={'Submit'}
                           buttonColor={'#446F35'}
