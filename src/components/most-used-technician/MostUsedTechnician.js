@@ -28,7 +28,7 @@ const MostUsedTechnician = () => {
                 </div>
               </div>
               <div className='mt-1'>
-                <img src={stars} alt='img' className='w-[24px] h-[24px]' />
+                <img src={stars} alt='img' className='w-full h-[20px]' />
               </div>
             </div>
           </div>
