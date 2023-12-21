@@ -38,7 +38,7 @@ const Input = ({
               : 'bg-[#ffff]'
           }  text-[#6F6F6F] placeholder-[#6F6F6F] border ${
             borderNone ? '' : 'border-[#6F6F6F]'
-          } text-[14px] rounded-full pl-[20px]`}
+          } text-[14px] rounded-full pl-[20px] font-body`}
           onChange={onChange}
         />
       </div>
