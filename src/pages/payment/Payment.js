@@ -181,7 +181,9 @@ const Payment = () => {
               <p className='text-base font-bold font-body'>#29,000</p>
             </div>
             <div className='flex flex-col gap-[10px] mt-[40px]'>
-              <p className='font-bold font-base text-primary font-heading'>Delivered to</p>
+              <p className='font-bold font-base text-primary font-heading'>
+                Delivered to
+              </p>
               <p className='w-[200px] leading-9 font-body'>
                 MAO Shopping Complex Meadow Hall way Lekki phase 1 Lagos
               </p>
@@ -190,7 +192,9 @@ const Payment = () => {
               <p className='text-base font-bold font-heading'>Mobile Number</p>
               <p className='text-base font-bold font-body'>0816 525 6611</p>
             </div>
-            <div className='text-base font-heading font-bold mt-[50px]'>Change Address</div>
+            <div className='text-base font-heading font-bold mt-[50px]'>
+              Change Address
+            </div>
             <div
               className='w-[120px] mx-auto mt-[90px]'
               onClick={paymentSuccessFunc}
@@ -214,7 +218,7 @@ const Payment = () => {
                     alignItems: 'center',
                     justifyContent: 'center',
                   }}
-                  className=' bg-opacity-5'
+                  className='bg-[#767575] bg-opacity-[70%]'
                 >
                   <div
                     //  sx={style}
