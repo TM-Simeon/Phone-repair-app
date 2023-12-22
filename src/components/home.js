@@ -47,13 +47,13 @@ const Home = () => {
 					<span className="service_picture">
     					<img src={service_search} alt="service search"/>
 					</span>
-					<span className="arrow">
+					<span className="arrow1">
 						<p>&#8594;</p>
 					</span>
 					<span className="service_picture">
 						<img src={appointment_schedule} alt="appointment schedule"/>
 					</span>
-					<span className="arrow">
+					<span className="arrow1">
 						<p>&#8594;</p>
 					</span>
 					<span className="service_picture">

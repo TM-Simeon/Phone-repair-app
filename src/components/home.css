@@ -72,12 +72,12 @@
 	vertical-align: top;
 	margin: 5px;
 }
-.arrow{
+.arrow1{
 	font-size:100px;
 	/*display: flex;*/
 	/*max-width: 300px;*/
 }
-.arrow p{
+.arrow1 p{
 	display: inline-block;
 	/*background: gold;*/
 }
@@ -160,7 +160,7 @@
 #why_us {
 	position: absolute;
 	min-height: 1000px;
-	top:  1340px;
+	top:  1320px;
 	width: 100%;
 	background: #FFF3E4;
 	/*margin-left: 10%;*/
@@ -258,7 +258,7 @@
 }
 
 .arrow {
-  border: solid black;
+  border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
