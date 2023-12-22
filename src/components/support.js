@@ -1,6 +1,7 @@
 import React from 'react';
 // import {Link} from 'react-router-dom';
 import './support.css';
+import qanda from '../images/qanda.png'
 
 
 const Support = () => {
@@ -30,18 +31,22 @@ const Support = () => {
 						<p>Gadget Glide is completely free, providing easy acccess for all users without hidden charges</p>
 					</div>
 					<div className="show_more">
-						<div id="show_more_icon"></div>
+						<div id="show_more_icon">
+							<div id="arrow_down"><i class="arrow down"></i></div>
+						</div>
 						<div id="show_more_text">
 							<h4>show more</h4>
 						</div>
 					</div>
 				</div>
-				<div id="details"></div>
+				<div id="details">
+					<img src={qanda} alt="Q & A" id="qanda"/>
+				</div>
 			</div>
 			<div className="more-questions">
 				<div id="more-questions-text">
-					<h3>Still have some Questions?</h3>
-					<p>Can't find the answer you are looking for? please chat with our team.</p>
+					<a href="support" id="linksToSupport"><h3>Still have some Questions?</h3></a>
+					<a href="support" id="linksToSupport"><p>Can't find the answer you are looking for? please chat with our team.</p></a>
 
 				</div>
 				<div id="get-in-touch"><h4>Get in touch</h4></div>

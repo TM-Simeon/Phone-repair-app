@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Modal from '@mui/material/Modal';
 import { toast } from 'react-toastify';
@@ -9,7 +9,7 @@ import './Payment.css';
 
 const Payment = () => {
   const navigate = useNavigate();
-  const [debit, setDebit] = useState(true);
+  const [debit] = useState(true);
   // const [payment, setPayment] = useState(false);
   const [open, setOpen] = useState(false);
   const handleClose = () => {

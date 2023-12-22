@@ -1,13 +1,14 @@
 import React from 'react';
-import Image from './logo.PNG';
+import Image from '../images/footerLogo.png';
 import { NavLink } from 'react-router-dom';
 import './header.css';
+import './footer.css';
 
 const Header = () => {
   return (
     <nav className="navbar">
       <NavLink to="/" exact className="logo" activeClassName="active-link">
-    	<img src={Image} alt="logo"/>
+    	<img src={Image} alt="logo" className="footerLogo"/>
         
       </NavLink>
       <div className="nav-links">

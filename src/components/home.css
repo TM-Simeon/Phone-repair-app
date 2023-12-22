@@ -2,9 +2,12 @@
 	margin: 0px;
 	padding: 0px;
 }
+.home{
+	background: #FEFBF7;
+}
 .we-do{
 	text-align: center;
-	margin-top: 30px;
+	/*margin-top: 20px;*/
 }
 #findTechnicianButton{
 	margin-top: 20px;
@@ -21,26 +24,28 @@
 	background: none;
 }
 #phone-samples {
-	height: 145px;
+	min-height: 145px;
 	background: #262A4F;
 	margin-top: 55px;
 	/*max-height: 100px;*/
-	text-align: center;
+	/*text-align: center;*/
 	/*display: flex;*/
-	/*align-items: center;*/
+	align-items: center;
+	justify-content: center;
+	display: flex;
 
 }
 .phone_sample img{
-	max-height: 100px;
+	max-height: 150px;
 	margin: 20px 0px;
 	/*overflow-y: hidden;*/
 }
 .phone_sample1 img{
-	max-height: 90px;
+	max-height: 150px;
 	margin: 20px 80px;
 }
 .phone_sample2 img{
-	max-height: 90px;
+	max-height: 150px;
 	margin: 20px 0px;
 }
 #booking {
@@ -145,17 +150,17 @@
 	background: #EC8206;
 	/*min-width: 200px;*/
 	padding: 10px;
-	float: right;
-	margin-right: 20%;
+	/*float: right;*/
+	/*margin-right: 20%;*/
 	text-align: center;
 	border-radius: 25px;
 	margin-top: 5px;
-	margin-left: 10%;
+	margin-left: 40%;
 }
 #why_us {
 	position: absolute;
 	min-height: 1000px;
-	top:  1370px;
+	top:  1340px;
 	width: 100%;
 	background: #FFF3E4;
 	/*margin-left: 10%;*/
@@ -166,13 +171,17 @@
 	font-size: 50px;
 }
 #box1 {
-	min-height: 500px;
-	min-width: 30%;
+	/*max-height: 400px;*/
+	max-width: 30%;
 	display: inline-block;
 	background: #4d4c4c;
 	margin-top: 170px;
 	margin-left: 5%;
 	border-radius: 20px;
+	vertical-align: top;
+}
+#box1 img{
+	max-height: 500px;
 }
 #box2 {
 	/*background: gray;*/
@@ -209,6 +218,18 @@
 	/*display: absolute;*/
 	vertical-align: top;
 }
+#flex_circle{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background: white;*/
+	vertical-align: middle;
+}
+#flex_circle img{
+	max-height: 50px;
+	margin-top: 18px;
+}
+
 #text_content{
 	display: inline-block;
 	min-width: 50%;
@@ -219,4 +240,36 @@
 
 #heading{
 	/*line-height: 5px;*/
+}
+#arrow_left {
+	background: grey;
+	display: inline-block;
+	min-width: 25px;
+	min-height: 25px;
+	border-radius: 50%;
+}
+#arrow_right {
+	background: grey;
+	display: inline-block;
+	margin-left: 50%;
+	min-width: 25px;
+	min-height: 25px;
+	border-radius: 50%;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }

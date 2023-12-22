@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+.support{
+	background: #FEFBF7;
+}
 .got-questions{
 	text-align: center;
 }
@@ -16,21 +18,26 @@
 #questions{
 	display: inline-block;
 	vertical-align: top;
-	max-width: 30%;
-	margin-left: 5%;
+	max-width: 40%;
+	min-width: 20%;
+	margin-left: 10%;
 }
 .questions{
 	margin: 0px 0px 20px 0px;
 }
 #details{
 	display: inline-block;
-	min-height: 400px;
-	background: grey;
-	min-width: 50%;
+	max-height: 400px;
+	/*background: grey;*/
+	min-width: 40%;
 	vertical-align: top;
 	margin-right: 5%;
 	border-radius: 15px;
 	float: right;
+}
+#qanda{
+	max-height: 400px;
+	/*min-height: 300px;*/
 }
 
 #show_more_icon{
@@ -43,11 +50,18 @@
 #show_more_text{
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 15px;
+	color: #EC8206;
 
+}
+.show_more{
+	display: flex;
+	align-items: center;
+	/*justify-content: center;*/
 }
 
 .more-questions{
-	background: gray;
+	background: #F0F0FD;
 	width: 80%;
 	margin: auto;
 	margin-bottom: 40px;
@@ -64,4 +78,22 @@
 	/*display: inline-block;*/
 	float: right;
 	margin-right: 5%;
+	margin-left: 35%;
+	display: inline-block;
+	min-height: 40px;
+	background: #EC8206;
+	align-items: center;
+	border-radius: 20px;
+}
+#get-in-touch h4{
+	margin: 10px 10px;
+}
+
+#arrow_down{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	display: inline-block;
+	font-size: 10px;
+	margin-left: 10px;
+	/*background: blue;*/
 }
