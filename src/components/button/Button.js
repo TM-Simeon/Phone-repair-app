@@ -8,7 +8,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`bg-[${buttonColor}] rounded-full text-white ${width} ${height} text-sm`}
+      className={`bg-[${buttonColor}] rounded-full text-white ${width} ${height} text-sm font-body`}
     >
       {/* bg-[#A42020] */}
       {/* bg-[#446F35] */}

@@ -9,7 +9,7 @@ const Technician = () => {
   return (
     <div className='bg-[#FEFBF7]'>
       <div className='container max-w-7xl mx-auto pt-10'>
-        <div className='text-[40px] leading-[2.5rem] text-[#3D3D3D]'>
+        <div className='text-[40px] leading-[2.5rem] text-[#3D3D3D] font-heading'>
           Find a technician
         </div>
         <div className='mb-[100px]'>
@@ -22,7 +22,7 @@ const Technician = () => {
             </div>
           </div>
         </div>
-        <div className='text-[24px] mb-[32px]'>Most used technicians</div>
+        <div className='text-[24px] mb-[32px] font-heading'>Most used technicians</div>
 		<div className='mb-[110px]'>
 			<MostUsedTechnician />
 		</div>
