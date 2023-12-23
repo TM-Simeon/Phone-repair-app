@@ -8,3 +8,26 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
+
+
+/* for the scroll bar */
+/* --thumbBG: #F0F0FD; */
+html {
+  --scrollbarBG: #1c2127;
+  --thumbBG: #F0F0FD;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
