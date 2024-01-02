@@ -38,18 +38,19 @@ const Payment = () => {
   return (
     <div className=''>
       <div className='grid grid-cols-12 justify-between payment-gradient-css'>
-        <div className='container col-span-12 lg:col-span-8 mx-auto pl-14 py-11'>
+        <div className='container col-span-12 lg:col-span-8 mx-auto px-5 lg:px-0 lg:pl-14 py-11'>
           <div className='text-primary text-xl font-heading'>Your details</div>
-          <form>
+          <form className=''>
+            {/* w-full lg:w-[603px] mx-auto */}
             <div className='mt-[15px]'>
-              <div className='flex items-center gap-[20px]'>
-                <div className='w-[256px]'>
+              <div className='flex flex-wrap items-center gap-[20px]'>
+                <div className='w-full lg:w-[256px]'>
                   <Input inputPlaceholder={'Phone type'} transparentBg />
                 </div>
-                <div className='w-[160px]'>
+                <div className='w-full lg:w-[160px]'>
                   <Input inputPlaceholder={'Color'} transparentBg />
                 </div>
-                <div className='w-[160px]'>
+                <div className='w-full lg:w-[160px]'>
                   <Input inputPlaceholder={'Quality'} transparentBg />
                 </div>
               </div>
@@ -64,10 +65,10 @@ const Payment = () => {
                   </div>
                 </div>
               </div>
-              <div className='w-[680px] mt-[22px]'>
+              <div className='w-full lg:w-[680px] mt-[22px]'>
                 <Input inputPlaceholder={'Email'} transparentBg />
               </div>
-              <div className='w-[680px] mt-[22px]'>
+              <div className='w-full lg:w-[680px] mt-[22px]'>
                 <Input inputPlaceholder={'Phone Number'} transparentBg />
               </div>
             </div>
@@ -76,7 +77,7 @@ const Payment = () => {
           <div className='mt-[40px] mb-[20px] text-xl font-heading'>
             Repair Details
           </div>
-          <div className='bg-[#DEE0FA] w-[580px] px-7 py-5 text-primary'>
+          <div className='bg-[#DEE0FA] w-full lg:w-[580px] px-4 lg:px-7 py-5 text-primary'>
             <div className='font-bold text-base font-heading'>Repair Type</div>
             <p className='pt-[17px] pb-[17px] text-primary font-body'>
               Lorem ipsum dolor sit amet consectetur. Rhoncus eu aliquam.
@@ -108,16 +109,16 @@ const Payment = () => {
           <div className='mt-[30px] mb-[50px]'>
             {debit && (
               <form className='relative'>
-                <div className='bg-[#DEE0FA] pl-[36px] pt-[36px] pb-[50px] rounded-[20px] w-[580px]'>
+                <div className='bg-[#DEE0FA] px-4 py-8 lg:pl-[36px] lg:pt-[36px] lg:pb-[50px] rounded-[20px] w-full lg:w-[580px]'>
                   {' '}
-                  <div className='pb-[23px] w-[500px]'>
+                  <div className='pb-[23px] w-full lg:w-[500px]'>
                     <Input
                       inputPlaceholder={'Card Holder Name'}
                       borderNone
                       WhiteSmokebgColor
                     />
                   </div>
-                  <div className='pb-[23px] w-[500px]'>
+                  <div className='pb-[23px] w-full lg:w-[500px]'>
                     <Input
                       inputPlaceholder={'Card Number'}
                       borderNone
@@ -142,20 +143,20 @@ const Payment = () => {
                   </div>
                 </div>
                 <div className='absolute bottom-[-15px] flex gap-[20px] pl-[36px]'>
-                  <div className='w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
+                  <div className='w-full lg:w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
                     <Button
                       buttonText={'Cancel'}
                       buttonColor={'#A42020'}
-                      width='w-[240px]'
-                      height='h-[40px]'
+                      width='w-[120px] lg:w-[240px]'
+                      height='h-[30px] lg:h-[40px]'
                     />
                   </div>
-                  <div className='w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
+                  <div className='w-full lg:w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
                     <Button
                       buttonText={'Proceed'}
                       buttonColor={'#446F35'}
-                      width='w-[240px]'
-                      height='h-[40px]'
+                      width='w-[120px] lg:w-[240px]'
+                      height='h-[30px] lg:h-[40px]'
                     />
                   </div>
                 </div>
@@ -168,17 +169,19 @@ const Payment = () => {
             <div className='text-primary text-2xl font-heading'>Summary</div>
             {/* <div> */}
             <div className='flex items-center justify-between text-primary mt-[35px]'>
-              <p className='text-base font-body'>Device</p>
-              <p className='text-base font-body'>Iphone 11 pro max</p>
+              <p className='text-sm lg:text-base font-body'>Device</p>
+              <p className='text-sm lg:text-base font-body'>
+                Iphone 11 pro max
+              </p>
             </div>
             <div className='flex items-center justify-between mt-[15px] text-primary w-[330px]'>
-              <p className='text-base font-body'>Repair Price</p>
-              <p className='text-base font-body'>#29,000</p>
+              <p className='text-sm lg:text-base font-body'>Repair Price</p>
+              <p className='text-sm lg:text-base font-body'>#29,000</p>
             </div>
             {/* </div> */}
             <div className='flex items-center justify-between mt-[100px] text-primary w-[330px]'>
-              <p className='text-base font-bold font-heading'>Total Payable</p>
-              <p className='text-base font-bold font-body'>#29,000</p>
+              <p className='text-sm lg:text-base font-bold font-heading'>Total Payable</p>
+              <p className='text-sm lg:text-base font-bold font-body'>#29,000</p>
             </div>
             <div className='flex flex-col gap-[10px] mt-[40px]'>
               <p className='font-bold font-base text-primary font-heading'>
