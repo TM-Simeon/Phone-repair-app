@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     // <img src="../logo.png">
     <footer className='footer'>
-      <div className='container max-w-8xl mx-auto px-8 lg:px-0'>
+      <div className='container max-w-7xl mx-auto lg:px-0'>
         <img src={Image} alt='logo' className='footerLogo' />
         <div className='flex mt-6 mb-16 justify-between'>
           <h4 className='text-left '>Effortless Repairs at Your Fingertips</h4>
@@ -35,13 +35,13 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className='flex justify-between items-end mt-12'>
-          <div className='flex gap-[32px]'>
+        <div className='flex lg:justify-between lg:items-end mt-12'>
+          <div className='flex flex-wrap lg:gap-[32px]'>
             <Link to='/technician'>Find a technician</Link>
             <Link to='/support'>Support</Link>
             <Link to='/technician'>Account</Link>
           </div>
-          <div className='flex gap-[32px]'>
+          <div className='flex flex-wrap lg:gap-[32px]'>
             <Link to='/technician'>Warranty</Link>
             <Link to='/technician'>About us</Link>
             <Link to='/technician'>Review</Link>
@@ -52,7 +52,7 @@ const Footer = () => {
             <p className='text-left mb-4 font-bold'>Chat with us</p>
             <p className='text-secondary'>hello@gadgetglide.co</p>
           </div>
-          <div className='flex text-secondary gap-[25px]'>
+          <div className='flex flex-wrap text-secondary lg:gap-[25px]'>
             <Link to='/technician' className='underline'>
               Privacy policy
             </Link>
