@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import img1 from '../../images/Rectangle 111.png';
 import Technicians from '../../data/Technicians';
+
 const MostUsedTechnician = () => {
   return (
-    <div className='flex flex-wrap justify-between items-center'>
+    <div className='flex flex-wrap justify-center lg:justify-between items-center gap-[20px] lg:gap-[0px]'>
       {Technicians.map(({ id, img, name, experience, location, stars }) => (
         <Link
           to={`/SingleTechnicianPage`}
