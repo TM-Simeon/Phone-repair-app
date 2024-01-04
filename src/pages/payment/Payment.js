@@ -92,7 +92,7 @@ const Payment = () => {
           <div className='text-sm mt-[8px] mb-[13px] font-body'>Pay With</div>
           <div>
             <input type='checkbox' id='card' name='card' value='card' />
-            <label for='card' className='text-base font-body'>
+            <label for='card' className='text-sm lg:text-base font-body'>
               {' '}
               Debit Card
             </label>
@@ -100,7 +100,7 @@ const Payment = () => {
           </div>
           <div className='mt-[10px]'>
             <input type='checkbox' id='card' name='card' value='Transfer' />
-            <label for='card' className='text-base font-body'>
+            <label for='card' className='text-sm lg:text-base font-body'>
               {' '}
               Transfer
             </label>
@@ -180,33 +180,41 @@ const Payment = () => {
             </div>
             {/* </div> */}
             <div className='flex items-center justify-between mt-[100px] text-primary w-[330px]'>
-              <p className='text-sm lg:text-base font-bold font-heading'>Total Payable</p>
-              <p className='text-sm lg:text-base font-bold font-body'>#29,000</p>
+              <p className='text-sm lg:text-base font-bold font-heading'>
+                Total Payable
+              </p>
+              <p className='text-sm lg:text-base font-bold font-body'>
+                #29,000
+              </p>
             </div>
             <div className='flex flex-col gap-[10px] mt-[40px]'>
-              <p className='font-bold font-base text-primary font-heading'>
+              <p className='font-bold text-sm lg:font-base text-primary font-heading'>
                 Delivered to
               </p>
-              <p className='w-[200px] leading-9 font-body'>
+              <p className='w-[200px] leading-9 font-body text-sm lg:text-base'>
                 MAO Shopping Complex Meadow Hall way Lekki phase 1 Lagos
               </p>
             </div>
             <div className='flex items-center gap-[48px] mt-[30px]'>
-              <p className='text-base font-bold font-heading'>Mobile Number</p>
-              <p className='text-base font-bold font-body'>0816 525 6611</p>
+              <p className='text-sm lg:text-base font-bold font-heading'>
+                Mobile Number
+              </p>
+              <p className='text-sm lg:text-base font-bold font-body'>
+                0816 525 6611
+              </p>
             </div>
-            <div className='text-base font-heading font-bold mt-[50px]'>
+            <div className='text-sm lg:text-base font-heading font-bold mt-[50px]'>
               Change Address
             </div>
             <div
-              className='w-[120px] mx-auto mt-[90px]'
+              className='w-[120px] mx-auto my-8 lg:my-0 lg:mt-[90px]'
               onClick={paymentSuccessFunc}
             >
               <Button
                 buttonText={'Make payment'}
                 buttonColor={'#EC8206'}
                 width='w-[160px]'
-                height='h-[50px]'
+                height='h-[40px] lg:h-[50px]'
               />
             </div>
             <div>
@@ -225,17 +233,17 @@ const Payment = () => {
                 >
                   <div
                     //  sx={style}
-                    className='flex h-[50vh] w-[500px] flex-col justify-center rounded-md bg-[#FFFBF6] lg:mx-8'
+                    className='flex lg:h-[50vh] w-[250px] lg:w-[500px] flex-col justify-center rounded-md bg-[#FFFBF6] lg:mx-8'
                   >
-                    <div className='mx-auto w-[300px]'>
-                      <p className='text-end text-base lg:text-[27px] text-light text-primary'>
+                    <div className='mx-auto lg:w-[300px]'>
+                      <p className='pt-4 lg:pt-0 text-end text-sm lg:text-base lg:text-[27px] text-light text-primary'>
                         Payment sucessful
                       </p>
                     </div>
-                    <div className='font-bold text-[23px] text-primary text-center pt-[25px] pb-[5px]'>
+                    <div className='font-bold text-sm lg:text-[23px] text-primary text-center pt-[10px] lg:pt-[25px] pb-[5px]'>
                       Tell us about your experience
                     </div>
-                    <p className='text-[#000] text-base text-center w-[130px] mx-auto'>
+                    <p className='text-[#000] text-sm lg:text-base text-center w-[130px] mx-auto'>
                       Tap a star to rate the website
                     </p>
                     <div className='mx-auto my-3'>
