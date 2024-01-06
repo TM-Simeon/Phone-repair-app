@@ -17,7 +17,7 @@ const FindATechnician = () => {
           <div className='mt-6 flex flex-col gap-y-5'>
             <Input inputPlaceholder={"Technician's location"} />
           </div>
-          <div className='mt-6 grid grid-cols-12 items-center'>
+          <div className='mt-6 grid grid-cols-12 gap-5 items-center'>
             <div className='col-span-12 lg:col-span-6'>
               <Input inputPlaceholder={'Speciality'} />
             </div>
@@ -37,9 +37,9 @@ const FindATechnician = () => {
           >
             Leave a note
           </div>
-          <div className='mt-4 mb-8'>{note && <Textarea />}</div>
+          {/* <div className='mt-4 mb-8'>{note && <Textarea />}</div> */}
         </div>
-        <div className='text-end'>
+        <div className='text-end mt-4'>
           <button className='bg-[#EC8206] w-[127px] rounded-full text-white h-[35px] lg:h-[50px]'>
             Search
           </button>

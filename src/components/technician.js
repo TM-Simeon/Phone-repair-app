@@ -6,7 +6,7 @@ import MostUsedTechnician from './most-used-technician/MostUsedTechnician';
 
 const Technician = () => {
   return (
-    <div className='bg-[#FEFBF7]'>
+    <div className='bg-[#FFFFF]'>
       <div className='container max-w-7xl mx-auto px-5 pt-10'>
         <div className='text-xl lg:text-[40px] leading-[2.5rem] text-[#3D3D3D] font-heading'>
           Find a technician

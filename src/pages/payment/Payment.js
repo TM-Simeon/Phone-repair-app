@@ -249,7 +249,7 @@ const Payment = () => {
                     <div className='mx-auto my-3'>
                       <img src={paymentStars} alt='img' className='w-[150px]' />
                     </div>
-                    <div className='mb-8 flex flex-col items-center justify-center gap-[10px] lg:flex-row lg:gap-[15px]'>
+                    <div className='mb-8 flex items-center justify-center gap-[10px] flex-row lg:gap-[15px]'>
                       <div className='w-[100px]' onClick={handleClose}>
                         <Button
                           buttonText={'Cancel'}
