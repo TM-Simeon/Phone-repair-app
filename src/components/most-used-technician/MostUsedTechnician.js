@@ -5,7 +5,7 @@ import Technicians from '../../data/Technicians';
 
 const MostUsedTechnician = () => {
   return (
-    <div className='flex flex-wrap justify-center lg:justify-between items-center gap-[20px] lg:gap-[0px]'>
+    <div className='flex justify-center lg:justify-between items-center gap-[20px] lg:gap-[20px] overflow-scroll pl-[320px] md:pl-[0px]'>
       {Technicians.map(({ id, img, name, experience, location, stars }) => (
         <Link
           to={`/SingleTechnicianPage`}
@@ -13,7 +13,7 @@ const MostUsedTechnician = () => {
         >
           <div
             key={id}
-            className='bg-[#262A4F] rounded-[10px] px-[23px] py-[19px] flex gap-[20px] lg:max-w-[310px] w-full'
+            className='bg-[#262A4F] rounded-[10px] px-[13px] lg:px-[23px] py-[19px] flex gap-[20px] lg:max-w-[310px] w-[310px]'
           >
             <img src={img} alt='img' className='w-[90px] h-[90px]' />
             <div>

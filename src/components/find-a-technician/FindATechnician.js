@@ -17,7 +17,7 @@ const FindATechnician = () => {
           <div className='mt-6 flex flex-col gap-y-5'>
             <Input inputPlaceholder={"Technician's location"} />
           </div>
-          <div className='mt-6 grid grid-cols-12 gap-5 items-center'>
+          <div className='mt-6 grid grid-cols-12 lg:gap-5 items-center'>
             <div className='col-span-12 lg:col-span-6'>
               <Input inputPlaceholder={'Speciality'} />
             </div>

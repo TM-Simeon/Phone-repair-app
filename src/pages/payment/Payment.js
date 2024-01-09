@@ -37,7 +37,7 @@ const Payment = () => {
   // }, []);
   return (
     <div className=''>
-      <div className='grid grid-cols-12 justify-between payment-gradient-css'>
+      <div className='grid grid-cols-12 justify-between bg-white'>
         <div className='container col-span-12 lg:col-span-8 mx-auto px-5 lg:px-0 lg:pl-14 py-11'>
           <div className='text-primary text-xl font-heading'>Your details</div>
           <form className=''>
@@ -98,14 +98,14 @@ const Payment = () => {
             </label>
             <br></br>
           </div>
-          <div className='mt-[10px]'>
+          {/* <div className='mt-[10px]'>
             <input type='checkbox' id='card' name='card' value='Transfer' />
             <label for='card' className='text-sm lg:text-base font-body'>
               {' '}
               Transfer
             </label>
             <br></br>
-          </div>
+          </div> */}
           <div className='mt-[30px] mb-[50px]'>
             {debit && (
               <form className='relative'>
