@@ -1,10 +1,11 @@
-import React from 'react';
-import Image from '../images/footerLogo.png';
+import React, { useState } from 'react';
+import Image from '../icons/logo.svg'
 import { NavLink } from 'react-router-dom';
 import './header.css';
 import './footer.css';
 
 const Header = () => {
+  const [navbarOpen, setNavbar] = useState(false);
   return (
     <nav className='navbar'>
       <NavLink to='/' exact className='logo' activeClassName='active-link'>
@@ -34,6 +35,14 @@ const Header = () => {
         >
           Support
         </NavLink>
+      </div>
+      <div
+        className='hamburger d-sm-block d-md-block d-lg-block d-xl-none'
+        onClick={() => setNavbar(!navbarOpen)}
+      >
+        <div className={!navbarOpen ? 'bar' : 'bar one'}></div>
+        <div className={!navbarOpen ? 'bar' : 'bar two'}></div>
+        <div className={!navbarOpen ? 'bar' : 'bar three'}></div>
       </div>
     </nav>
   );
