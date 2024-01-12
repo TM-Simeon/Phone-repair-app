@@ -39,6 +39,7 @@ const Header = () => {
             Support
           </NavLink>
         </div>
+        {/* mobile navbar  */}
         <div
           style={{
             transition: 'all .5s',
@@ -47,7 +48,6 @@ const Header = () => {
           }}
           className='absolute right-0 bg-[#EFF0FC] rounded-[10px] lg:hidden w-[40%] top-[65px]'
         >
-          {/* mobile navbar  */}
           {navbarOpen && (
             <div className='nav-links flex flex-col justify-end py-[19px] px-[15px]'>
               {/* i added font-family and font-weight to the links below */}
@@ -56,6 +56,9 @@ const Header = () => {
                 exact
                 className='nav-link font-body font-[400]'
                 activeClassName='active-link'
+                onClick={() => {
+                  setNavbar(false);
+                }}
               >
                 Home
               </NavLink>
@@ -64,6 +67,9 @@ const Header = () => {
                   to='/technician'
                   className='nav-link font-body font-[400]'
                   activeClassName='active-link'
+                  onClick={() => {
+                    setNavbar(false);
+                  }}
                 >
                   Technician
                 </NavLink>
@@ -72,6 +78,9 @@ const Header = () => {
                 to='/support'
                 className='nav-link'
                 activeClassName='active-link font-body font-[400]'
+                onClick={() => {
+                  setNavbar(false);
+                }}
               >
                 Support
               </NavLink>
