@@ -28,10 +28,10 @@ const Technician = () => {
         <div className='text-[24px] mb-[32px] font-heading'>
           Most used technicians
         </div>
-        <div className='mb-[110px]'>
+      </div>
+        <div className='lg:container max-w-7xl mx-auto mb-[110px]'>
           <MostUsedTechnician />
         </div>
-      </div>
     </div>
   );
 };

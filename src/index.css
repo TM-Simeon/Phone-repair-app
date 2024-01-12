@@ -9,12 +9,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 /* for the scroll bar */
 /* --thumbBG: #F0F0FD; */
 html {
   --scrollbarBG: #1c2127;
-  --thumbBG: #F0F0FD;
+  --thumbBG: #f0f0fd;
 }
 body::-webkit-scrollbar {
   width: 11px;
