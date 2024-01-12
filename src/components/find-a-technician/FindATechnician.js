@@ -9,7 +9,7 @@ const FindATechnician = () => {
   };
   return (
     <div>
-      <form className='w-[603px]'>
+      <form className='w-full lg:w-[603px] mx-auto'>
         <div>
           <div className='mt-6'>
             <Input inputPlaceholder={'Your current location'} />
@@ -17,25 +17,30 @@ const FindATechnician = () => {
           <div className='mt-6 flex flex-col gap-y-5'>
             <Input inputPlaceholder={"Technician's location"} />
           </div>
-          <div className='mt-6 flex justify-between gap-[31px]'>
-            <Input inputPlaceholder={'Speciality'} />
-            <Input inputPlaceholder={'phone model (Optional)'} />
+          <div className='mt-6 grid grid-cols-12 lg:gap-5 items-center'>
+            <div className='col-span-12 lg:col-span-6'>
+              <Input inputPlaceholder={'Speciality'} />
+            </div>
+            <div className='col-span-12 lg:col-span-6 mt-6 lg:mt-0'>
+              <Input inputPlaceholder={'phone model (Optional)'} />
+            </div>
           </div>
-          <div className='mt-6'>
+          <p className='font-body text-lg mt-4'>Describe your phone issue</p>
+          <div className='mt-4'>
             <Input inputPlaceholder={'Hardware'} />
           </div>
         </div>
         <div className='mt-6'>
           <div
             onClick={noteFunction}
-            className='w-[100%] p-[5px_9px_5px_6px] lg:p-[10px_24px_10px_24px] bg-white text-[#6F6F6F] border border-[#413E3A] text-[12px] lg:text-[16px] rounded-full text-center'
+            className='w-[100%] p-[10px_24px_10px_24px] bg-white text-[#6F6F6F] border border-[#413E3A] text-[14px] lg:text-[16px] rounded-full text-center'
           >
             Leave a note
           </div>
-          <div className='mt-4 mb-8'>{note && <Textarea />}</div>
+          {/* <div className='mt-4 mb-8'>{note && <Textarea />}</div> */}
         </div>
-        <div className='text-end mt-37px'>
-          <button className='bg-[#EC8206] w-[127px] rounded-full text-white h-[50px]'>
+        <div className='text-end mt-4'>
+          <button className='bg-[#EC8206] w-[127px] rounded-full text-white h-[35px] lg:h-[50px]'>
             Search
           </button>
         </div>
