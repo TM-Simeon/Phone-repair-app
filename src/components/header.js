@@ -20,21 +20,21 @@ const Header = () => {
             to='/'
             exact
             className='nav-link font-body font-[400]'
-            activeClassName='active-link'
+            activeclassname='active-link'
           >
             Home
           </NavLink>
           <NavLink
             to='/technician'
             className='nav-link font-body font-[400]'
-            activeClassName='active-link'
+            activeclassname='active-link'
           >
             Technician
           </NavLink>
           <NavLink
             to='/support'
-            className='nav-link'
-            activeClassName='active-link font-body font-[400]'
+            className='nav-link  font-body font-[400]'
+            activeclassname='active-link'
           >
             Support
           </NavLink>
@@ -55,7 +55,7 @@ const Header = () => {
                 to='/'
                 exact
                 className='nav-link font-body font-[400]'
-                activeClassName='active-link'
+                activeclassname='active-link'
                 onClick={() => {
                   setNavbar(false);
                 }}
@@ -66,7 +66,7 @@ const Header = () => {
                 <NavLink
                   to='/technician'
                   className='nav-link font-body font-[400]'
-                  activeClassName='active-link'
+                  activeclassname='active-link'
                   onClick={() => {
                     setNavbar(false);
                   }}
@@ -76,8 +76,8 @@ const Header = () => {
               </div>
               <NavLink
                 to='/support'
-                className='nav-link'
-                activeClassName='active-link font-body font-[400]'
+                className='nav-link font-body font-[400]'
+                activeclassname='active-link'
                 onClick={() => {
                   setNavbar(false);
                 }}
