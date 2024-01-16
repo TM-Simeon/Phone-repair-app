@@ -86,6 +86,7 @@
 }
 .testimonials h1{
 	margin-top: 80px;
+	/*background: blue;*/
 }
 .testimonial_picture{
 	display: inline-block;
@@ -166,9 +167,12 @@
 	/*margin-left: 10%;*/
 	/*margin-bottom: 50px;*/
 }
-#why_us h1{
+#why_for_large_screen{
 	margin:170px 0px 0px 40%;
 	font-size: 50px;
+}
+#why_for_small_screen{
+	display: none;
 }
 #box1 {
 	/*max-height: 400px;*/
@@ -273,3 +277,4 @@
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
