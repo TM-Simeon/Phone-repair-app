@@ -1,0 +1,114 @@
+@media screen and (min-width: 301px) and (max-width: 900px){
+	#find_your {
+		display: block;
+		position: static;
+		min-height: 80px;
+		width: 80%;
+		background: #262A4F;
+		margin-left: 10%;
+		z-index: 1;
+		align-items: center;
+		justify-items: center;
+		color: white;
+	}
+	#find_your_nearby_technician{
+		display: inline-block;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 10%;
+		min-width: 80%;
+		text-align: center;
+		margin-top: 30px;
+
+	}
+	#find_a_technician{
+		display: inline-block;
+		/*vertical-align: middle;*/
+		background: #EC8206;
+		/*min-width: 200px;*/
+		padding: 10px;
+		/*float: right;*/
+		/*margin-right: 20%;*/
+		text-align: center;
+		border-radius: 25px;
+		margin-top: 5px;
+		margin-left: 40%;
+		margin-bottom: 30px;
+	}
+	#box1 {
+		display: block;
+		max-width: 100%;
+		/*margin-left: 0px;*/
+		/*padding: 40px;*/
+		margin-top: 50px;
+		border-radius: 0px;
+		/*margin:170px 0px 0px 0px;*/
+		/*background: blue;*/
+		text-align: center;
+		/*background: white;*/
+	}
+	#box1 img{
+		/*max-height: 500px;*/
+		/*background: green;*/
+		/*min-width: 400px;*/
+
+
+		margin: auto;
+		width: auto;
+	}
+	#box2 {
+		/*background: gray;*/
+		min-height: 400px;
+		display: inline-block;
+		width: 80%;
+		margin-left: 10%;
+		/*margin-left: 5%;*/
+		/*margin-right: 5%;*/
+		vertical-align: top;
+		margin-top: 80px;
+		background: white;
+
+	}
+	#why_us {
+		position: static;
+		min-height: 1000px;
+		/*top:  1320px;*/
+		width: 100%;
+		/*background: green;*/
+		/*margin-left: 10%;*/
+		/*margin-bottom: 50px;*/
+	}
+	#why_for_large_screen{
+		margin:170px 0px 0px 40%;
+		font-size: 50px;
+		display: none;
+	}
+	#why_for_small_screen{
+		display: block;
+		font-size: 50px;
+		text-align: center;
+	}
+	#inner_box2{
+		display: flex;
+		align-items: center;
+		margin-left: 0%;
+		margin-top: 60px;
+	}
+	#testimonials {
+		display: flex;
+		text-align: center;
+	}
+	.section {
+		/*position: relative;*/
+		min-height: 1050px;
+		/*align-items: center;*/
+		/*justify-content: center;*/
+		/*margin-bottom: 50px;*/
+		/*margin-top: 50px;*/
+		/*z-index: 0;*/
+		/*background: gold;*/
+		/*margin-bottom: 70px;*/
+	}
+
+
+}

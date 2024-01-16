@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './home.css';
+import './phonehome.css'
 import service_search from '../images/service_search.png';
 import appointment_schedule from '../images/appointment_schedule.png'
 import make_payment from '../images/make_payment.png'
@@ -68,7 +69,7 @@ const Home = () => {
 				</div>
 			</div>
 			<div className="testimonials">
-				<h1 id="testimonials">TESTIMONIALS</h1>
+				<h1 id="testimonials_header">TESTIMONIALS</h1>
 				<div id="testimonials">
 					<span className="testimonial_picture">
 						<img src={female_testimony} alt="female testimony"/>
@@ -102,11 +103,13 @@ const Home = () => {
 					<div id="find_a_technician"><h2>Find a technician</h2></div>
 				</div>
 				<div id="why_us">
-					<h1>WHY CHOOSE US</h1>
+					<h1 id="why_for_large_screen">WHY CHOOSE US</h1>
 
 					<div id="box1">
 						<img src={fixing_process} alt="fixing process"/>
 					</div>
+					<h1 id="why_for_small_screen">WHY CHOOSE US</h1>
+
 					<div id="box2">
 						<div id="inner_box1">
 							<div id="circle">
