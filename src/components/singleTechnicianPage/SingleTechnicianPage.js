@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './SingleTechnicianPage.css';
+import './mediasingletechnicianpage.css';
 // import { Link, useParams, useLocation } from 'react-router-dom';
 import technicianStar from '../../images/technicianStar.png';
 import orangeStar from '../../images/OrangeStar.png';

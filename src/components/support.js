@@ -1,18 +1,24 @@
 import React from 'react';
 // import {Link} from 'react-router-dom';
 import './support.css';
+import './supportmobile.css';
 import qanda from '../images/qanda.png'
+import qandamobile from '../images/qandamobile.png'
 
 
 const Support = () => {
 	return (
 		<div className="support">
+				<div id="details1">
+					<img src={qandamobile} alt="" id="qanda1"/>
+				</div>
 			<div className="got-questions">
 				<h1>YOU GOT QUESTIONS? <br/> WE GOT ANSWERS!</h1>
 				<h4>Feel free to ask anything and i'll provide the best guidance and clarification<br></br>on any topic you have in mind</h4>
 				
 			</div>
 			<div id="support-block">
+
 				<div id="questions">
 					<div className="questions">
 						<h3>Is the site free for all users?</h3>
@@ -24,11 +30,11 @@ const Support = () => {
 					</div>
 					<div className="questions">
 						<h3>What is your cancellation policy?</h3>
-						<p>Gadget Glide is completely free, providing easy acccess for all users without hidden charges</p>
+						<p>No worries! Manage or cancel appointments hassle-free by visiting the technician's profile within our 3-day timeframe.</p>
 					</div>
 					<div className="questions">
 						<h3>How does the billing work?</h3>
-						<p>Gadget Glide is completely free, providing easy acccess for all users without hidden charges</p>
+						<p>Payment is securely processed through our platform before service completion, with technicians setting prices and providing a clear breakdown before confirmation.</p>
 					</div>
 					<div className="show_more">
 						<div id="show_more_icon">

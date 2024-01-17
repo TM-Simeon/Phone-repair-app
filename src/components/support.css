@@ -27,9 +27,10 @@
 }
 #details{
 	display: inline-block;
-	max-height: 400px;
+	/*max-height: 400px;*/
 	/*background: grey;*/
-	min-width: 40%;
+	/*min-width: 30%;*/
+	width: 40vw;
 	vertical-align: top;
 	margin-right: 5%;
 	border-radius: 15px;
@@ -76,11 +77,12 @@
 }
 #get-in-touch{
 	/*display: inline-block;*/
-	float: right;
+	/*float: right;*/
 	margin-right: 5%;
-	margin-left: 35%;
+	margin-left: auto;
 	display: inline-block;
 	min-height: 40px;
+	min-width: 120px;
 	background: #EC8206;
 	align-items: center;
 	border-radius: 20px;
@@ -96,4 +98,7 @@
 	font-size: 10px;
 	margin-left: 10px;
 	/*background: blue;*/
+}
+#details1{
+	display: none;
 }
