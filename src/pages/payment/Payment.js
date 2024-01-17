@@ -39,7 +39,9 @@ const Payment = () => {
     <div className=''>
       <div className='grid grid-cols-12 justify-between bg-white'>
         <div className='container col-span-12 lg:col-span-8 mx-auto px-5 lg:px-0 lg:pl-14 py-11'>
-          <div className='text-primary text-xl font-heading'>Your details</div>
+          <div className='text-primary text-xl lg:text-2xl font-heading'>
+            Your details
+          </div>
           <form className=''>
             {/* w-full lg:w-[603px] mx-auto */}
             <div className='mt-[15px]'>
@@ -74,7 +76,7 @@ const Payment = () => {
             </div>
           </form>
           {/*  */}
-          <div className='mt-[40px] mb-[20px] text-xl font-heading'>
+          <div className='mt-[40px] mb-[20px] text-xl lg:text-2xl font-heading'>
             Repair Details
           </div>
           <div className='bg-[#DEE0FA] w-full lg:w-[580px] px-4 lg:px-7 py-5 text-primary'>
@@ -88,11 +90,15 @@ const Payment = () => {
             </div>
           </div>
           {/*  */}
-          <div className='text-xl mt-[30px] font-heading'>Payment</div>
-          <div className='text-sm mt-[8px] mb-[13px] font-body'>Pay With</div>
-          <div>
+          <div className='text-xl lg:text-2xl mt-[30px] font-heading'>
+            Payment
+          </div>
+          <div className='text-sm lg:text-base mt-[8px] mb-[13px] font-body'>
+            Pay With
+          </div>
+          <div className='flex items-center gap-[10px]'>
             <input type='checkbox' id='card' name='card' value='card' />
-            <label for='card' className='text-sm lg:text-base font-body'>
+            <label for='card' className='text-base lg:text-xl font-body'>
               {' '}
               Debit Card
             </label>
@@ -143,7 +149,7 @@ const Payment = () => {
                   </div>
                 </div>
                 <div className='absolute bottom-[-15px] flex gap-[20px] pl-[36px]'>
-                  <div className='w-full lg:w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
+                  <div className='w-full lg:w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] lg:rounded-full'>
                     <Button
                       buttonText={'Cancel'}
                       buttonColor={'#A42020'}
@@ -165,8 +171,8 @@ const Payment = () => {
           </div>
         </div>
         <div className='bg-[#F6F6F6] col-span-12 lg:col-span-4'>
-          <div class='container mx-auto px-8 pt-24'>
-            <div className='text-primary text-2xl font-heading'>Summary</div>
+          <div class='container mx-auto px-8 pt-10 lg:pt-24'>
+            <div className='text-primary text-xl lg:text-2xl font-heading'>Summary</div>
             {/* <div> */}
             <div className='flex items-center justify-between text-primary mt-[35px]'>
               <p className='text-sm lg:text-base font-body'>Device</p>
@@ -188,15 +194,15 @@ const Payment = () => {
               </p>
             </div>
             <div className='flex flex-col gap-[10px] mt-[40px]'>
-              <p className='font-bold text-sm lg:font-base text-primary font-heading'>
+              <p className='font-bold text-sm lg:text-base text-primary font-heading'>
                 Delivered to
               </p>
               <p className='w-[200px] leading-9 font-body text-sm lg:text-base'>
                 MAO Shopping Complex Meadow Hall way Lekki phase 1 Lagos
               </p>
             </div>
-            <div className='flex items-center gap-[48px] mt-[30px]'>
-              <p className='text-sm lg:text-base font-bold font-heading'>
+            <div className='flex items-start gap-[48px] mt-[30px]'>
+              <p className='text-sm items-start lg:text-base font-bold font-heading'>
                 Mobile Number
               </p>
               <p className='text-sm lg:text-base font-bold font-body'>
@@ -207,7 +213,7 @@ const Payment = () => {
               Change Address
             </div>
             <div
-              className='w-[120px] mx-auto my-8 lg:my-0 lg:mt-[90px]'
+              className='w-[120px] mx-auto my-8 mb-[130px] lg:mb-0 lg:my-0 lg:mt-[90px]'
               onClick={paymentSuccessFunc}
             >
               <Button
