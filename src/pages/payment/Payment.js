@@ -25,7 +25,7 @@ const Payment = () => {
       // position: 'bottom-right',
     });
     setOpen(false);
-    navigate('/technician');
+    navigate('/product-preview-and-ratings');
   }
   // useEffect(() => {
   //   // if () {

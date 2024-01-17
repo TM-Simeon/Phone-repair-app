@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,12 +21,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 /* for the scroll bar */
 /* --thumbBG: #F0F0FD; */
 html {
   --scrollbarBG: #1c2127;
-  --thumbBG: #F0F0FD;
+  --thumbBG: #f0f0fd;
 }
 body::-webkit-scrollbar {
   width: 11px;
@@ -30,4 +41,49 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG);
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
+}
+
+/* checkbox styling */
+/* input[type='checkbox']:checked {
+  background-color: #EC8206;
+  color: white;
+} */
+
+/* input[type="checkbox"]{ */
+  /* filter:hue-rotate(170deg);
+  -webkit-filter:hue-rotate(170deg); */
+   /* cursor: pointer; */
+/* } */
+/* input[type='checkbox']{
+  width: 30px !important;
+  height: 30px !important;
+  margin: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 2px solid lightblue;
+  box-shadow: none;
+  font-size: 2em;
+} */
+
+input[type='checkbox']{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 13px !important;
+  height: 13px !important;
+  /* outline: 2px solid #AAAAAA; */
+  background-color: #AAAAAA;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+input[type='checkbox']:checked {
+  background-color: #EC8206;
+  color: white;
+  /* outline: 2px solid #EC8206; */
 }
