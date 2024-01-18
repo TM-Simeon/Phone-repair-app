@@ -25,7 +25,7 @@ const Technician = () => {
             </div>
           </div>
         </div>
-        <div className='text-[24px] mb-[32px] font-heading'>
+        <div className='text-xl lg:text-2xl mb-[32px] font-heading'>
           Most used technicians
         </div>
       </div>

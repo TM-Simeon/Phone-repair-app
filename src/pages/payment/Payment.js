@@ -39,7 +39,9 @@ const Payment = () => {
     <div className=''>
       <div className='grid grid-cols-12 justify-between bg-white'>
         <div className='container col-span-12 lg:col-span-8 mx-auto px-5 lg:px-0 lg:pl-14 py-11'>
-          <div className='text-primary text-xl font-heading'>Your details</div>
+          <div className='text-primary text-xl lg:text-2xl font-heading'>
+            Your details
+          </div>
           <form className=''>
             {/* w-full lg:w-[603px] mx-auto */}
             <div className='mt-[15px]'>
@@ -74,25 +76,31 @@ const Payment = () => {
             </div>
           </form>
           {/*  */}
-          <div className='mt-[40px] mb-[20px] text-xl font-heading'>
+          <div className='mt-[40px] mb-[20px] text-xl lg:text-2xl font-heading'>
             Repair Details
           </div>
           <div className='bg-[#DEE0FA] w-full lg:w-[580px] px-4 lg:px-7 py-5 text-primary'>
             <div className='font-bold text-base font-heading'>Repair Type</div>
-            <p className='pt-[17px] pb-[17px] text-primary font-body'>
-              Lorem ipsum dolor sit amet consectetur. Rhoncus eu aliquam.
+            <p className='pt-[17px] pb-[17px] text-primary font-body font-medium'>
+              Charging Problems: Issues with charging or power connectivity.
             </p>
             <div className='flex items-start gap-[20px]'>
               <p className='font-bold text-base font-heading'>Repair Price:</p>
-              <p className='text-[#000000] text-base font-body'># 29,000</p>
+              <p className='text-[#000000] text-base font-body font-medium'>
+                # 29,000
+              </p>
             </div>
           </div>
           {/*  */}
-          <div className='text-xl mt-[30px] font-heading'>Payment</div>
-          <div className='text-sm mt-[8px] mb-[13px] font-body'>Pay With</div>
-          <div>
+          <div className='text-xl lg:text-2xl mt-[30px] font-heading'>
+            Payment
+          </div>
+          <div className='text-sm lg:text-base mt-[8px] mb-[13px] font-body'>
+            Pay With
+          </div>
+          <div className='flex items-center gap-[10px]'>
             <input type='checkbox' id='card' name='card' value='card' />
-            <label for='card' className='text-sm lg:text-base font-body'>
+            <label for='card' className='text-base lg:text-xl font-body'>
               {' '}
               Debit Card
             </label>
@@ -165,18 +173,26 @@ const Payment = () => {
           </div>
         </div>
         <div className='bg-[#F6F6F6] col-span-12 lg:col-span-4'>
-          <div class='container mx-auto px-8 pt-24'>
-            <div className='text-primary text-2xl font-heading'>Summary</div>
+          <div class='container mx-auto px-8 pt-10 lg:pt-24'>
+            <div className='text-primary text-xl lg:text-2xl font-heading'>
+              Summary
+            </div>
             {/* <div> */}
             <div className='flex items-center justify-between text-primary mt-[35px]'>
-              <p className='text-sm lg:text-base font-body'>Device</p>
-              <p className='text-sm lg:text-base font-body'>
+              <p className='text-sm lg:text-base font-body font-medium'>
+                Device
+              </p>
+              <p className='text-sm lg:text-base font-body font-medium'>
                 Iphone 11 pro max
               </p>
             </div>
             <div className='flex items-center justify-between mt-[15px] text-primary w-[330px]'>
-              <p className='text-sm lg:text-base font-body'>Repair Price</p>
-              <p className='text-sm lg:text-base font-body'>#29,000</p>
+              <p className='text-sm lg:text-base font-body font-medium'>
+                Repair Price
+              </p>
+              <p className='text-sm lg:text-base font-body font-medium'>
+                #29,000
+              </p>
             </div>
             {/* </div> */}
             <div className='flex items-center justify-between mt-[100px] text-primary w-[330px]'>
@@ -188,15 +204,15 @@ const Payment = () => {
               </p>
             </div>
             <div className='flex flex-col gap-[10px] mt-[40px]'>
-              <p className='font-bold text-sm lg:font-base text-primary font-heading'>
+              <p className='font-bold text-sm lg:text-base text-primary font-heading'>
                 Delivered to
               </p>
               <p className='w-[200px] leading-9 font-body text-sm lg:text-base'>
                 MAO Shopping Complex Meadow Hall way Lekki phase 1 Lagos
               </p>
             </div>
-            <div className='flex items-center gap-[48px] mt-[30px]'>
-              <p className='text-sm lg:text-base font-bold font-heading'>
+            <div className='flex items-start gap-[48px] mt-[30px]'>
+              <p className='text-sm items-start lg:text-base font-bold font-heading'>
                 Mobile Number
               </p>
               <p className='text-sm lg:text-base font-bold font-body'>
@@ -207,7 +223,7 @@ const Payment = () => {
               Change Address
             </div>
             <div
-              className='w-[120px] mx-auto my-8 lg:my-0 lg:mt-[90px]'
+              className='w-[120px] mx-auto my-8 mb-[130px] lg:mb-0 lg:my-0 lg:mt-[90px]'
               onClick={paymentSuccessFunc}
             >
               <Button
@@ -235,8 +251,8 @@ const Payment = () => {
                     //  sx={style}
                     className='flex lg:h-[50vh] w-[250px] lg:w-[500px] flex-col justify-center rounded-md bg-[#FFFBF6] lg:mx-8'
                   >
-                    <div className='mx-auto lg:w-[300px]'>
-                      <p className='pt-4 lg:pt-0 text-end text-sm lg:text-base lg:text-[27px] text-light text-primary'>
+                    <div className='mx-auto'>
+                      <p className='pt-4 lg:pt-0 text-center text-base lg:text-[27px] text-light text-primary'>
                         Payment sucessful
                       </p>
                     </div>
