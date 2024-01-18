@@ -171,6 +171,7 @@
 	align-items: center;
 	border-radius: 15px;
 	margin: 10px 0px;
+	align-items: center;
 }
 #open-for-booking{
 	display: inline-block;
@@ -187,6 +188,13 @@
 	background: #EC8206;
 	padding: 5px 25px;
 	border-radius: 15px;
+}
+#book2{
+	background: #EC8206;
+	padding: 5px 25px;
+	border-radius: 15px;
+	margin-right: auto;
+	margin-left: 170px;
 }
 #links{
 	margin-bottom: 25px;

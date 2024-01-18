@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import './SingleTechnicianPage.css';
 import './mediasingletechnicianpage.css';
 // import { Link, useParams, useLocation } from 'react-router-dom';
@@ -40,7 +41,9 @@ const SingleTechnicianPage = () => {
                 <img src={orangeStar} alt="*" className="star"/>
                 <img src={greyStar} alt="*" className="star"/>
               <div>
-                <div id="book">Book</div>
+                <Link to="/payment">
+                  <div id="book">Book</div>
+                </Link>
               </div>
             </div>
             <div id="links">
@@ -126,7 +129,9 @@ const SingleTechnicianPage = () => {
               <p>Book 1:1 sessions from the options based on your needs</p>
               <div id="booking-block">
                 <div id="open-for-booking">Open for booking</div>
-                <div id="book">Book</div>
+                <Link to="/payment">
+                  <div id="book2">Book</div>
+                </Link>
               </div>
             </div>
           </div>

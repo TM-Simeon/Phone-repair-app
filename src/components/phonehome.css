@@ -112,3 +112,16 @@
 
 
 }
+
+@media screen and (min-width: 901px) and (max-width: 1300px){
+	#why_us {
+	position: absolute;
+	/*min-height: 1400px;*/
+	top:  1320px;
+	width: 100%;
+	background: #FFF3E4;
+	/*margin-left: 10%;*/
+	/*margin-bottom: 50px;*/
+	}
+
+}
