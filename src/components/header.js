@@ -46,7 +46,7 @@ const Header = () => {
             visibility: navbarOpen ? 'visible' : 'hidden',
             left: navbarOpen ? '225px' : '-200px',
           }}
-          className='absolute right-0 bg-[#EFF0FC] rounded-[10px] lg:hidden w-[40%] top-[65px]'
+          className='absolute right-0 bg-[#EFF0FC] rounded-[10px] lg:hidden w-[40%] top-[80px]'
         >
           {navbarOpen && (
             <div className='nav-links flex flex-col justify-end py-[19px] px-[15px]'>
