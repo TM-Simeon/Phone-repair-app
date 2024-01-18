@@ -1,0 +1,47 @@
+@media screen and (min-width: 301px) and (max-width: 1100px){
+	#questions{
+		display: inline-block;
+		vertical-align: top;
+		max-width: 90%;
+		min-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#details1{
+		display: block;
+		text-align: center;
+	}
+	#details1 img{
+		width: 100vw;
+	}
+	#details{
+		display: none;
+		/*max-height: 400px;*/
+		/*background: grey;*/
+		/*min-width: 30%;*/
+		width: 40vw;
+		vertical-align: top;
+		margin-right: 5%;
+		border-radius: 15px;
+		float: right;
+	}
+	#get-in-touch{
+		/*display: inline-block;*/
+		/*float: right;*/
+		margin-left: auto;
+		margin-right: 5%;
+		/*margin-left: 10%;*/
+		display: inline-block;
+		min-height: 40px;
+		min-width: 90px;
+		background: #EC8206;
+		align-items: center;
+		border-radius: 20px;
+		font-size: 11px;
+	}
+	#more-questions-text{
+		display: inline-block;
+		margin-left: 5%;
+		font-size: 12px;
+	}
+}

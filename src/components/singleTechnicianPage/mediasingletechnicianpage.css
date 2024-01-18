@@ -1,0 +1,32 @@
+@media screen and (min-width: 301px) and (max-width: 1000px){
+	#content-elements{
+		position: static;
+		margin-top: -60px;
+		top: 160px;
+		/*min-height: 600px;*/
+		width: 100%;
+	}
+	#content-div1and2{
+		display: block;
+		/*min-width: 50%;*/
+		vertical-align: top;
+		margin-left: 5%;
+		margin-right: 5%;
+		/*border: 3px solid black;*/
+		/*min-height: 700px;*/
+	}
+	#content-div3{
+		/*background: blue;*/
+		/*width: 45%;*/
+		display: block;
+		width: 90%;
+		position: static;
+		border: 2px solid gray;
+		border-radius: 15px;
+		margin-top: 20px;
+		margin-left: 5%;
+		margin-right: 5%;
+		min-height: 400px;
+		/*background: orange;*/
+	}
+}
