@@ -149,7 +149,7 @@ const Payment = () => {
                   </div>
                 </div>
                 <div className='absolute bottom-[-15px] flex gap-[20px] pl-[36px]'>
-                  <div className='w-full lg:w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] lg:rounded-full'>
+                  <div className='w-full lg:w-[240px] shadow-[7px_4px_17.9px_0px_rgba(0,0,0,0.35)] rounded-full'>
                     <Button
                       buttonText={'Cancel'}
                       buttonColor={'#A42020'}
