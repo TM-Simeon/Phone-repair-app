@@ -81,12 +81,14 @@ const Payment = () => {
           </div>
           <div className='bg-[#DEE0FA] w-full lg:w-[580px] px-4 lg:px-7 py-5 text-primary'>
             <div className='font-bold text-base font-heading'>Repair Type</div>
-            <p className='pt-[17px] pb-[17px] text-primary font-body'>
-              Lorem ipsum dolor sit amet consectetur. Rhoncus eu aliquam.
+            <p className='pt-[17px] pb-[17px] text-primary font-body font-medium'>
+              Charging Problems: Issues with charging or power connectivity.
             </p>
             <div className='flex items-start gap-[20px]'>
               <p className='font-bold text-base font-heading'>Repair Price:</p>
-              <p className='text-[#000000] text-base font-body'># 29,000</p>
+              <p className='text-[#000000] text-base font-body font-medium'>
+                # 29,000
+              </p>
             </div>
           </div>
           {/*  */}
@@ -172,17 +174,25 @@ const Payment = () => {
         </div>
         <div className='bg-[#F6F6F6] col-span-12 lg:col-span-4'>
           <div class='container mx-auto px-8 pt-10 lg:pt-24'>
-            <div className='text-primary text-xl lg:text-2xl font-heading'>Summary</div>
+            <div className='text-primary text-xl lg:text-2xl font-heading'>
+              Summary
+            </div>
             {/* <div> */}
             <div className='flex items-center justify-between text-primary mt-[35px]'>
-              <p className='text-sm lg:text-base font-body'>Device</p>
-              <p className='text-sm lg:text-base font-body'>
+              <p className='text-sm lg:text-base font-body font-medium'>
+                Device
+              </p>
+              <p className='text-sm lg:text-base font-body font-medium'>
                 Iphone 11 pro max
               </p>
             </div>
             <div className='flex items-center justify-between mt-[15px] text-primary w-[330px]'>
-              <p className='text-sm lg:text-base font-body'>Repair Price</p>
-              <p className='text-sm lg:text-base font-body'>#29,000</p>
+              <p className='text-sm lg:text-base font-body font-medium'>
+                Repair Price
+              </p>
+              <p className='text-sm lg:text-base font-body font-medium'>
+                #29,000
+              </p>
             </div>
             {/* </div> */}
             <div className='flex items-center justify-between mt-[100px] text-primary w-[330px]'>
@@ -241,8 +251,8 @@ const Payment = () => {
                     //  sx={style}
                     className='flex lg:h-[50vh] w-[250px] lg:w-[500px] flex-col justify-center rounded-md bg-[#FFFBF6] lg:mx-8'
                   >
-                    <div className='mx-auto lg:w-[300px]'>
-                      <p className='pt-4 lg:pt-0 text-end text-sm lg:text-base lg:text-[27px] text-light text-primary'>
+                    <div className='mx-auto'>
+                      <p className='pt-4 lg:pt-0 text-center text-base lg:text-[27px] text-light text-primary'>
                         Payment sucessful
                       </p>
                     </div>

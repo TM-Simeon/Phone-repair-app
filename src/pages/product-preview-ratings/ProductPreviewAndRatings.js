@@ -19,7 +19,7 @@ const ProductPreviewAndRatings = () => {
   return (
     <div className=''>
       {/* bg-[#FFFFEE] */}
-      <div className='container max-w-7xl mx-auto px-4 lg:px-8 py-4 lg:py-11'>
+      <div className='container max-w-7xl mx-auto px-4 lg:px-8 py-4 lg:pt-11 lg:pb-[150px]'>
         <div className='font-bold text-base lg:text-2xl text-primary font-heading'>
           Product Review & Ratings
         </div>
@@ -34,7 +34,7 @@ const ProductPreviewAndRatings = () => {
             4.7
           </div>
           <div>
-            <div className='flex items-center gap-[20px] lg:gap-[32px]'>
+            <div className='flex items-center justify-between gap-[20px] lg:gap-[32px]'>
               <div className='hidden lg:block'>
                 <img
                   src={rating5stars}
@@ -50,7 +50,7 @@ const ProductPreviewAndRatings = () => {
                 <img
                   src={reviewLine5}
                   alt='img'
-                  className='w-[70%] h-[15px] lg:h-[7px] lg:w-full'
+                  className='w-[70%] h-[10px] lg:h-[7px] lg:w-[38.8rem]'
                 />
               </div>
             </div>
@@ -66,7 +66,7 @@ const ProductPreviewAndRatings = () => {
                 <img
                   src={reviewLine4}
                   alt='img'
-                  className='w-[70%] h-[15px] lg:h-[7px] lg:w-full'
+                  className='w-[70%] h-[10px] lg:h-[7px] lg:w-full'
                 />
               </div>
             </div>
@@ -82,7 +82,7 @@ const ProductPreviewAndRatings = () => {
                 <img
                   src={reviewLine3}
                   alt='img'
-                  className='w-[70%] h-[15px] lg:h-[7px] lg:w-full'
+                  className='w-[70%] h-[10px] lg:h-[7px] lg:w-full'
                 />
               </div>
             </div>
@@ -98,7 +98,7 @@ const ProductPreviewAndRatings = () => {
                 <img
                   src={reviewLine2}
                   alt='img'
-                  className='w-[70%] h-[15px] lg:h-[7px] lg:w-full'
+                  className='w-[70%] h-[10px] lg:h-[7px] lg:w-full'
                 />
               </div>
             </div>
@@ -114,7 +114,7 @@ const ProductPreviewAndRatings = () => {
                 <img
                   src={reviewLine1}
                   alt='img'
-                  className='w-[70%] h-[15px] lg:h-[7px] lg:w-full'
+                  className='w-[70%] h-[10px] lg:h-[7px] lg:w-full'
                 />
               </div>
             </div>
@@ -164,7 +164,7 @@ const ProductPreviewAndRatings = () => {
                 <p className='text-primary text-body text-base lg:text-xl font-[600] pt-[8px]'>
                   {reviews.reviewHeading}
                 </p>
-                <p className='font-body text-[#ABABAB] text-sm'>
+                <p className='font-body text-[#ABABAB] text-sm w-full'>
                   {reviews.reviewParagraph}
                 </p>
               </div>
