@@ -80,9 +80,9 @@ const Home = () => {
 					of the said paragraph we are working with</p>
 					</span>
 				</div>
-				<div>
-				<div id="arrow_left"><i class="arrow left"></i></div>
-				<div id="arrow_right"><i class="arrow right"></i></div>
+				<div id="arrow_box">
+					<div id="arrow_left"><i class="arrow left"></i></div>
+					<div id="arrow_right"><i class="arrow right"></i></div>
 
 				</div>
 				<div id="testimonials">
