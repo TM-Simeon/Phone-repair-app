@@ -9,6 +9,10 @@
 	text-align: center;
 	/*margin-top: 20px;*/
 }
+.we-do h1{
+	font-size: 25px;
+	font-weight: bold;
+}
 #findTechnicianButton{
 	margin-top: 20px;
 	display: inline-block;
@@ -16,6 +20,7 @@
 	background: #EC8206;
 	align-items: center;
 	border-radius: 20px;
+	color: white;
 	
 }
 #findTechnicianButton button{
@@ -110,6 +115,7 @@
 }
 #arrow_box{
 	margin: 10px 0px;
+	display: none;
 }
 
 #find_button {
@@ -134,7 +140,8 @@
 	min-height: 80px;
 	width: 80%;
 	background: #262A4F;
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	z-index: 1;
 	align-items: center;
 	justify-items: center;
@@ -178,7 +185,8 @@
 	display: inline-block;
 	background: #4d4c4c;
 	margin-top: 170px;
-	margin-left: 5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 	border-radius: 20px;
 	vertical-align: top;
 }

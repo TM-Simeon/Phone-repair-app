@@ -7,15 +7,16 @@
 		background: #262A4F;
 		margin-left: 10%;
 		z-index: 1;
+		text-align: center;
 		align-items: center;
-		justify-items: center;
+		justify-content: center;
 		color: white;
 	}
 	#find_your_nearby_technician{
 		display: inline-block;
 		font-size: 20px;
 		font-weight: bold;
-		margin-left: 10%;
+		margin-left: 0%;
 		min-width: 80%;
 		text-align: center;
 		margin-top: 30px;
@@ -23,26 +24,19 @@
 	}
 	#find_a_technician{
 		display: inline-block;
-		/*vertical-align: middle;*/
 		background: #EC8206;
-		/*min-width: 200px;*/
 		padding: 10px;
-		/*float: right;*/
-		/*margin-right: 20%;*/
 		text-align: center;
 		border-radius: 25px;
 		margin-top: 5px;
-		margin-left: 40%;
+		margin-left: auto;
 		margin-bottom: 30px;
 	}
 	#box1 {
 		display: block;
 		max-width: 100%;
-		/*margin-left: 0px;*/
-		/*padding: 40px;*/
 		margin-top: 50px;
 		border-radius: 0px;
-		/*margin:170px 0px 0px 0px;*/
 		background: white;
 		text-align: center;
 		/*background: white;*/
