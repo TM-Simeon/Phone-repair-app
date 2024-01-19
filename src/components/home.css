@@ -179,6 +179,9 @@
 #why_for_small_screen{
 	display: none;
 }
+#why_for_small_screen1{
+	display: none;
+}
 #box1 {
 	/*max-height: 400px;*/
 	max-width: 30%;

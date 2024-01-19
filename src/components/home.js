@@ -43,7 +43,7 @@ const Home = () => {
 					</span>
 			</div>
 			<div className="booking">
-				<h1 id="booking">BOOK A TECHNICIAN IN THREE STEPS</h1>
+				<h1 id="booking"><span className="word_color">BOOK A TECHNICIAN IN</span><span className="word_color1"> THREE</span><span className="word_color"> STEPS</span></h1>
 				<div id="service_picture">
 					<span className="service_picture">
     					<img src={service_search} alt="service search"/>
@@ -103,12 +103,14 @@ const Home = () => {
 					<div id="find_a_technician"><h2>Find a technician</h2></div>
 				</div>
 				<div id="why_us">
-					<h1 id="why_for_large_screen">WHY CHOOSE US</h1>
+					<h1 id="why_for_large_screen">WHY CHOOSE US?</h1>
 
 					<div id="box1">
 						<img src={fixing_process} alt="fixing process"/>
 					</div>
 					<h1 id="why_for_small_screen">WHY CHOOSE US</h1>
+					<h3 id="why_for_small_screen1">we are intentional about the services we provide</h3>
+
 
 					<div id="box2">
 						<div id="inner_box1">

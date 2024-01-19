@@ -3,9 +3,9 @@
 		display: block;
 		position: static;
 		min-height: 80px;
-		width: 80%;
+		width: 100%;
 		background: #262A4F;
-		margin-left: 10%;
+		margin-left: 0%;
 		z-index: 1;
 		text-align: center;
 		align-items: center;
@@ -43,7 +43,7 @@
 	}
 	#box1 img{
 		margin: auto;
-		width: auto;
+		width: 80vw;
 	}
 	#box2 {
 		/*background: gray;*/
@@ -74,8 +74,15 @@
 	}
 	#why_for_small_screen{
 		display: block;
-		font-size: 50px;
+		font-size: 40px;
 		text-align: center;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	#why_for_small_screen1{
+		display: block;
+		text-align: center;
+		font-size: 30px;
 	}
 	#inner_box2{
 		display: flex;
@@ -115,9 +122,16 @@
 	.arrow1{
 		font-size:20px;
 	}
+	#booking {
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
 	.testimonials h1{
 		margin-top: 80px;
 		margin-bottom: 20px;
+		font-size: 50px;
+		font-weight: bold;
 	}
 	.testimonial_picture2{
 		display: inline-block;
@@ -127,6 +141,9 @@
 		vertical-align: middle;
 		margin:0px  10px 0px 10px;
 		font-size: 10px;
+	}
+	.word_color1{
+		color: #EC8206;
 	}
 
 
@@ -156,4 +173,37 @@
 	}
 
 }
+@media screen and (min-width: 200px) and (max-width: 400px){
+	#find_your_nearby_technician{
+		display: inline-block;
+		font-size: 12px;
+		font-weight: bold;
+		margin-left: 0%;
+		min-width: 80%;
+		text-align: center;
+		margin-top: 30px;
+
+	}
+	#find_a_technician{
+		display: inline-block;
+		background: #EC8206;
+		padding: 5px;
+		text-align: center;
+		border-radius: 25px;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-bottom: 30px;
+		font-size: 10px;
+	}
+		#why_for_small_screen{
+			display: block;
+			font-size: 30px;
+			text-align: center;
+			font-weight: bold;
+			margin-top: 20px;
+	}
+
+}
+
+
 
