@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Input from './input/Input';
 import Textarea from './textarea/Textarea';
 import dropdownarrow from '../../images/dropdownarrow.svg';
@@ -18,7 +19,9 @@ const FindATechnician = () => {
   };
   const [logIn, setLogIn] = useState({
     email: '',
-    password: '',
+    clientLocation: '',
+    location: '',
+    phoneNumber: '',
   });
   const onInputChange = (e) => {
     setLogIn({
@@ -26,6 +29,7 @@ const FindATechnician = () => {
       [e.target.name]: e.target.value,
     });
   };
+  const { location, phoneNumber, clientLocation } = logIn;
 
   // Initialize state, checking localStorage for a stored value
   const [isChecked, setChecked] = useState(() => {
@@ -42,21 +46,42 @@ const FindATechnician = () => {
   const handleCheckboxChange = () => {
     setChecked(!isChecked);
   };
+
+  const navigate = useNavigate();
+  const OnSubmit = async (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
+    let userId = `${location}`;
+    navigate(`/singleTechnicianPage/${userId}`);
+    // { state: { key: userId } }
+  };
   return (
     <div>
       {/* inputType="email" inputName="email" inputPlaceholder="Email address"
                 inputValue={logIn.firstName}
                 onChange={onInputChange} */}
-      <form className='w-full lg:w-[603px] mx-auto'>
+      <form
+        className='w-full lg:w-[603px] mx-auto'
+        onSubmit={(e) => OnSubmit(e)}
+      >
         <div>
           <div className='mt-6'>
             <Input
+              // change this
+              inputValue={clientLocation}
+              inputType={'text'}
+              inputName={'clientLocation'}
+              // change this
               inputPlaceholder={'Your current location'}
               onChange={onInputChange}
             />
           </div>
           <div className='mt-6 flex flex-col gap-y-5'>
             <Input
+              // change this
+              inputValue={location}
+              inputType={'text'}
+              inputName={'location'}
+              // change this
               inputPlaceholder={"Technician's location"}
               onChange={onInputChange}
             />
@@ -207,7 +232,10 @@ const FindATechnician = () => {
           {/* <div className='mt-4 mb-8'>{note && <Textarea />}</div> */}
         </div>
         <div className='text-end mt-4'>
-          <button className='bg-[#EC8206] w-[127px] rounded-full text-white h-[35px] lg:h-[50px]'>
+          <button
+            className='bg-[#EC8206] w-[127px] rounded-full text-white h-[35px] lg:h-[50px]'
+            onSubmit={(e) => OnSubmit(e)}
+          >
             Search
           </button>
         </div>
