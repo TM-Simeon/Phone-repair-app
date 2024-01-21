@@ -60,7 +60,7 @@ const FindATechnician = () => {
                 inputValue={logIn.firstName}
                 onChange={onInputChange} */}
       <form
-        className='w-full lg:w-[603px] mx-auto'
+        className='w-full xl:w-[603px] mx-auto'
         onSubmit={(e) => OnSubmit(e)}
       >
         <div>
@@ -73,6 +73,7 @@ const FindATechnician = () => {
               // change this
               inputPlaceholder={'Your current location'}
               onChange={onInputChange}
+              transparentBg
             />
           </div>
           <div className='mt-6 flex flex-col gap-y-5'>
@@ -84,12 +85,13 @@ const FindATechnician = () => {
               // change this
               inputPlaceholder={"Technician's location"}
               onChange={onInputChange}
+              transparentBg
             />
           </div>
           <div className='mt-6 grid grid-cols-12 lg:gap-5 items-center relative'>
             <div className='col-span-12 lg:col-span-6'>
               <div
-                className='flex align-center justify-between text-[#6F6F6F] placeholder-[#6F6F6F] border border-[#6F6F6F] text-[14px] rounded-full lg:pl-[20px] font-body w-full p-[9px_16px_10px_16px]'
+                className='flex align-center justify-between text-[#6F6F6F] placeholder-[#6F6F6F] border-[0.5px] border-[#6F6F6F] text-[14px] rounded-full lg:pl-[20px] font-body w-full p-[9px_16px_10px_16px]'
                 onClick={dropDownFunction}
               >
                 Speciality
@@ -106,6 +108,7 @@ const FindATechnician = () => {
               <Input
                 inputPlaceholder={'phone model (Optional)'}
                 onChange={onInputChange}
+                transparentBg
               />
             </div>
             {/* dropdown */}
@@ -116,7 +119,7 @@ const FindATechnician = () => {
               className='absolute top-[35px] w-full lg:w-[48%] z-20'
             >
               {dropDown && (
-                <div className='border border-[#6F6F6F] mt-4 px-8 py-4 rounded-lg bg-white'>
+                <div className='border-[0.5px] border-[#6F6F6F] mt-4 px-8 py-4 rounded-lg bg-white bg-transparent'>
                   <div className='flex items-center gap-[15px]'>
                     <input
                       type='checkbox'
@@ -166,7 +169,7 @@ const FindATechnician = () => {
           <div className='mt-4 relative'>
             <div
               onClick={dropDownIssueFunction}
-              className='flex align-center justify-between text-[#6F6F6F] placeholder-[#6F6F6F] border border-[#6F6F6F] text-[14px] rounded-full lg:pl-[20px] font-body w-full p-[9px_16px_10px_16px]'
+              className='flex align-center justify-between text-[#6F6F6F] placeholder-[#6F6F6F] border-[0.5px] border-[#6F6F6F] text-[14px] rounded-full lg:pl-[20px] font-body w-full p-[9px_16px_10px_16px]'
             >
               Hardware
               <img
@@ -223,7 +226,7 @@ const FindATechnician = () => {
             />
           ) : (
             <div
-              className='w-[100%] p-[10px_24px_10px_24px] bg-white text-[#6F6F6F] border border-[#413E3A] text-[14px] lg:text-[16px] rounded-full text-center'
+              className='w-[100%] p-[10px_24px_10px_24px] bg-transparent text-[#6F6F6F] border-[0.5px] border-[#413E3A] text-[14px] lg:text-[16px] rounded-full text-center'
               onClick={noteFunction}
             >
               Leave a note
@@ -231,9 +234,9 @@ const FindATechnician = () => {
           )}
           {/* <div className='mt-4 mb-8'>{note && <Textarea />}</div> */}
         </div>
-        <div className='text-end mt-4'>
+        <div className='text-end mt-[35px]'>
           <button
-            className='bg-[#EC8206] w-[127px] rounded-full text-white h-[35px] lg:h-[50px]'
+            className='bg-[#EC8206] shadow-base w-[127px] rounded-full text-white h-[35px] lg:h-[50px]'
             onSubmit={(e) => OnSubmit(e)}
           >
             Search

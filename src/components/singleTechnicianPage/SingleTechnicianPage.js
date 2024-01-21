@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { getDatabase, ref, child, get } from 'firebase/database';
 import { useParams } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './SingleTechnicianPage.css';
 import './mediasingletechnicianpage.css';
 // import { Link, useParams, useLocation } from 'react-router-dom';
@@ -57,7 +58,7 @@ const SingleTechnicianPage = () => {
               <img src={orangeStar} alt='*' className='star' />
               <img src={greyStar} alt='*' className='star' />
               <div>
-                <div id='book'>Book</div>
+                <div id="book">Book</div>
               </div>
             </div>
             <div id='links'>
@@ -162,9 +163,9 @@ const SingleTechnicianPage = () => {
               </div>
               <h4>Available sessions</h4>
               <p>Book 1:1 sessions from the options based on your needs</p>
-              <div id='booking-block'>
-                <div id='open-for-booking'>Open for booking</div>
-                <div id='book'>Book</div>
+              <div id="booking-block">
+                <div id="open-for-booking">Open for booking</div>
+                <div id="book">Book</div>
               </div>
             </div>
           </div>

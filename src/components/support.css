@@ -10,6 +10,8 @@
 }
 .got-questions h1{
 	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: 1000;
 }
 #support-block{
 	margin-top: 45px;
@@ -24,6 +26,10 @@
 }
 .questions{
 	margin: 0px 0px 20px 0px;
+}
+.questions h3{
+	font-weight: bold;
+	font-size: 20px;
 }
 #details{
 	display: inline-block;

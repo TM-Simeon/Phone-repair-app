@@ -9,6 +9,10 @@
 	text-align: center;
 	/*margin-top: 20px;*/
 }
+.we-do h1{
+	font-size: 25px;
+	font-weight: bold;
+}
 #findTechnicianButton{
 	margin-top: 20px;
 	display: inline-block;
@@ -16,6 +20,7 @@
 	background: #EC8206;
 	align-items: center;
 	border-radius: 20px;
+	color: white;
 	
 }
 #findTechnicianButton button{
@@ -74,8 +79,6 @@
 }
 .arrow1{
 	font-size:100px;
-	/*display: flex;*/
-	/*max-width: 300px;*/
 }
 .arrow1 p{
 	display: inline-block;
@@ -86,7 +89,7 @@
 }
 .testimonials h1{
 	margin-top: 80px;
-	/*background: blue;*/
+	margin-bottom: 30px;
 }
 .testimonial_picture{
 	display: inline-block;
@@ -109,6 +112,10 @@
 	min-height: 100px;
 	vertical-align: middle;
 	margin:0px  10px 0px 10px;
+}
+#arrow_box{
+	margin: 10px 0px;
+	display: none;
 }
 
 #find_button {
@@ -133,7 +140,8 @@
 	min-height: 80px;
 	width: 80%;
 	background: #262A4F;
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	z-index: 1;
 	align-items: center;
 	justify-items: center;
@@ -147,16 +155,13 @@
 }
 #find_a_technician{
 	display: inline-block;
-	/*vertical-align: middle;*/
 	background: #EC8206;
-	/*min-width: 200px;*/
 	padding: 10px;
-	/*float: right;*/
-	/*margin-right: 20%;*/
 	text-align: center;
 	border-radius: 25px;
 	margin-top: 5px;
-	margin-left: 40%;
+	margin-left: auto;
+	min-width: 170px;
 }
 #why_us {
 	position: absolute;
@@ -174,13 +179,17 @@
 #why_for_small_screen{
 	display: none;
 }
+#why_for_small_screen1{
+	display: none;
+}
 #box1 {
 	/*max-height: 400px;*/
 	max-width: 30%;
 	display: inline-block;
 	background: #4d4c4c;
 	margin-top: 170px;
-	margin-left: 5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 	border-radius: 20px;
 	vertical-align: top;
 }
