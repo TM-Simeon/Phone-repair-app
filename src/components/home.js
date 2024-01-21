@@ -23,7 +23,7 @@ const Home = () => {
 	return (
 		<div className="home">
 			<div className="we-do">
-				<h1>WE LINK USERS WITH RELIABLE <br/> TECHNICIANS</h1>
+				<h1>WE LINK USERS WITH RELIABLE <br/> TECHNICIANS.</h1>
 				<h4>we take pride in ensuring your phone runs smoothly</h4>
 				<div id="findTechnicianButton">
 					<Link to="technician">
@@ -47,18 +47,21 @@ const Home = () => {
 				<div id="service_picture">
 					<span className="service_picture">
     					<img src={service_search} alt="service search"/>
+    					<p>Find a<br/> technician</p>
 					</span>
 					<span className="arrow1">
 						<p>&#8594;</p>
 					</span>
 					<span className="service_picture">
 						<img src={appointment_schedule} alt="appointment schedule"/>
+    					<p>Appointment<br/> scheduling</p>
 					</span>
 					<span className="arrow1">
 						<p>&#8594;</p>
 					</span>
 					<span className="service_picture">
 						<img src={make_payment} alt="make payment"/>
+    					<p>Make<br/> payment</p>
 					</span>
 
 				</div>
@@ -75,21 +78,20 @@ const Home = () => {
 						<img src={female_testimony} alt="female testimony"/>
 					</span>
 					<span className="testimonial_picture2">
-					<p id="testimonial_p">this is the content for this section to have the picture so
-					that no matter how the conteent increases, we still are in control of the very shape
-					of the said paragraph we are working with</p>
+					<p id="testimonial_p">Top-notch service! The technician promptly fixed my phone, explained the issue, and gave valuable maintenance tips.</p>
 					</span>
 				</div>
 				<div id="arrow_box">
-					<div id="arrow_left"><i class="arrow left"></i></div>
-					<div id="arrow_right"><i class="arrow right"></i></div>
-
+					<Link to="#">
+						<div id="arrow_left"><i class="arrow left"></i></div>
+					</Link>
+					<Link to="#">
+						<div id="arrow_right"><i class="arrow2 right"></i></div>
+					</Link>
 				</div>
 				<div id="testimonials">
 					<span className="testimonial_picture2">
-					<p id="testimonial_p">this is the content for this section to have the picture so
-					that no matter how the conteent increases, we still are in control of the very shape
-					of the said paragraph we are working with</p>
+					<p id="testimonial_p">The professionalism, technical expertise, and friendly demeanour made the repair experience seam-less. Highly recommend for anyone in need of reliable phone repairs</p>
 					</span>
 					<span className="testimonial_picture">
 						<img src={male_testimony} alt="male testimony"/>
@@ -108,7 +110,7 @@ const Home = () => {
 					<div id="box1">
 						<img src={fixing_process} alt="fixing process"/>
 					</div>
-					<h1 id="why_for_small_screen">WHY CHOOSE US</h1>
+					<h1 id="why_for_small_screen">WHY CHOOSE US?</h1>
 					<h3 id="why_for_small_screen1">we are intentional about the services we provide</h3>
 
 
@@ -121,43 +123,39 @@ const Home = () => {
 							</div>
 							<div id="text_content">
 								<h2 id="heading">Certified Technicians</h2>
-								<p id="text">professionals who have undergone specific training <br></br>and testing to acquire recognized certifications in their field. <br></br>These certifications demonstrate a level of expertise<br></br> and competence in performing tasks related to their profefssion </p>
+								<p id="text">professionals who have undergone specific training and testing to acquire recognized certifications in their field. These certifications demonstrate a level of expertise and competence in performing tasks related to their profefssion </p>
 							</div>
 							
 						</div>
 						<div id="inner_box2">
 							<div id="circle">
-								<div id="flex_circle">
-									<img src={bikeman} alt="bike man"/>
-								</div>
+							<div id="flex_circle">
+								<img src={bikeman} alt="bike man"/>
+							</div>
 							</div>
 							<div id="text_content">
-								<h2 id="heading">Certified Technicians</h2>
-								<p id="text">professionals who have undergone specific training <br></br>and testing to acquire recognized certifications in their field. <br></br>These certifications demonstrate a level of expertise<br></br> and competence in performing tasks related to their profefssion </p>
+								<h2 id="heading">Express Service</h2>
+								<p id="text">Customers opting for express service usually receive priority handling. This may include expedited processing, quicker response times, and faster  resolution of their requests or transactions.</p>
 							</div>
 							
 						</div>
 						<div id="inner_box2">
-							<div id="circle">
-								<div id="flex_circle">
-									<img src={vector} alt="vector"/>
-								</div>
+							<div id="flex_circle">
+								<img src={vector} alt="vector"/>
 							</div>
 							<div id="text_content">
-								<h2 id="heading">Certified Technicians</h2>
-								<p id="text">professionals who have undergone specific training <br></br>and testing to acquire recognized certifications in their field. <br></br>These certifications demonstrate a level of expertise<br></br> and competence in performing tasks related to their profefssion </p>
+								<h2 id="heading">Time Management</h2>
+								<p id="text">Efficient time management is a key feature, allowing technicians to complete repairs within a reasonable  timeframe and minimize downtime for the customer. </p>
 							</div>
 							
 						</div>
 						<div id="inner_box3">
-							<div id="circle">
-								<div id="flex_circle">
-									<img src={timer} alt="timer"/>
-								</div>
+							<div id="flex_circle">
+								<img src={timer} alt="timer"/>
 							</div>
 							<div id="text_content">
-								<h2 id="heading">Time Management</h2>
-								<p id="text">Efficient time management is a key feature, allowing<br></br>technicians to complete repairs within a reasonable<br></br>timeframe and minimize downtime for the customer</p>
+								<h2 id="heading">Protection Plan</h2>
+								<p id="text">A protection plan is a service or agreement offered by a provider to safeguard against potential risks, damages, or unforeseen events. These plans are commonly associated with services. </p>
 							</div>
 							
 						</div>
