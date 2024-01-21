@@ -29,9 +29,9 @@ const Technician = () => {
           Most used technicians
         </div>
       </div>
-        {/* <div className='lg:container max-w-7xl mx-auto mb-[110px]'>
+        <div className='pb-[110px]'>
           <MostUsedTechnician />
-        </div> */}
+        </div>
     </div>
   );
 };

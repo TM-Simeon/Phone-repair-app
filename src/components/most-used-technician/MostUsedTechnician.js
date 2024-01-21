@@ -5,7 +5,8 @@ import Technicians from '../../data/Technicians';
 
 const MostUsedTechnician = () => {
   return (
-    <div className='flex justify-center lg:justify-center items-center gap-[20px] lg:gap-[20px] overflow-scroll lg:overflow-visible no-scrollbar pl-[300px] md:pl-[80px] pr-4'>
+    <div className='flex justify-start xl:justify-center items-center gap-[20px] lg:gap-[20px] overflow-scroll  no-scrollbar pl-[20px] xl:pl-[85px] pr-4'>
+      {/* lg:overflow-visible  md:pl-[200px]*/}
       {Technicians.map(({ id, img, name, experience, location, stars }) => (
         <Link
           to={`/SingleTechnicianPage`}
