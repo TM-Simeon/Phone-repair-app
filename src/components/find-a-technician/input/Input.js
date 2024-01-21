@@ -36,7 +36,7 @@ const Input = ({
               : WhiteSmokebgColor
               ? 'bg-[#EFEFEF]'
               : 'bg-[#ffff]'
-          }  text-[#6F6F6F] placeholder-[#6F6F6F] border ${
+          }  text-[#6F6F6F] placeholder-[#6F6F6F] border-[0.5px] ${
             borderNone ? '' : 'border-[#6F6F6F]'
           } text-[14px] rounded-full lg:pl-[20px] font-body`}
           onChange={onChange}
