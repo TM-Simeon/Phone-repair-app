@@ -1122,3 +1122,678 @@
 
 
 }
+=======
+@media screen and (min-width: 201px) and (max-width: 391px){
+	.home{
+		background: #FEFBF7;
+	}
+	.we-do{
+		text-align: center;
+		/*margin-top: 20px;*/
+	}
+	.we-do h1{
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+	  	margin: 0px 18px;
+	  	color: #262A4F;
+	  	font-family: 'roboto';
+	}
+	.we-do h4{
+		font-family: poppins;
+		color: #6F6F6F;
+		font-size: 12px;
+		margin-bottom: 8px;
+	}
+	#findTechnicianButton{
+		/*margin-top: 30px;*/
+		display: flex;
+		height: 30px;
+		width: 127px;
+		background: #EC8206;
+		align-items: center;
+		border-radius: 20px;
+		color: white;
+		align-items: center;
+		justify-content: center;
+		/*margin-top: 30px;*/
+		margin: auto;
+		/*text-align: center;*/
+		/*justify-content: center;*/
+		box-shadow: 1px 5px 15px rgba(236, 130, 6, 0.5);
+		
+	}
+	#findTechnicianButton button{
+		font-family: poppins;
+		font-size: 12px;
+		color: #F0F2FF;
+	}
+	#phone-samples {
+		min-height: 145px;
+		background: #262A4F;
+		margin-top: 30px;
+		/*max-height: 100px;*/
+		/*text-align: center;*/
+		/*display: flex;*/
+		align-items: center;
+		justify-content: center;
+		display: flex;
+
+	}
+	.phone_sample img{
+		max-height: 150px;
+		margin: 20px 0px;
+		/*overflow-y: hidden;*/
+	}
+	.phone_sample1 img{
+		max-height: 150px;
+		margin: 20px 80px;
+	}
+	.phone_sample2 img{
+		max-height: 150px;
+		margin: 20px 0px;
+	}
+	#find_your {
+		display: block;
+		position: static;
+		min-height: 116px;
+		width: 100%;
+		background: #262A4F;
+		margin-left: 0%;
+		z-index: 1;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		color: white;
+	}
+	#find_your_nearby_technician{
+		display: inline-block;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 0%;
+		min-width: 80%;
+		text-align: center;
+		margin-top: 30px;
+		font-size: 20px;
+		/*color: #F0F2FF;*/
+
+	}
+	#find_a_technician{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		background: #EC8206;
+		/*padding: 10px;*/
+		height: 30px;
+		width: 192px;
+		/*text-align: center;*/
+		border-radius: 25px;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-bottom: 30px;
+	}
+	#box1 {
+		display: block;
+		max-width: 100%;
+		margin-top: 20px;
+		border-radius: 0px;
+		/*background: white;*/
+		text-align: center;
+		/*background: white;*/
+	}
+	#box1 img{
+		margin: auto;
+		height: 308px;
+		width: 314px;
+	}
+	#box2 {
+		/*background: gray;*/
+		min-height: 400px;
+		display: inline-block;
+		/*width: 80%;*/
+		margin-left: 24px;
+		margin-right: 24px;
+		/*margin-left: 5%;*/
+		/*margin-right: 5%;*/
+		vertical-align: top;
+		margin-top: 30px;
+		/*background: white;*/
+
+	}
+	#why_us {
+		position: static;
+		min-height: 800px;
+		/*top:  1320px;*/
+		width: 100%;
+		/*background: green;*/
+		/*margin-left: 10%;*/
+		/*margin-bottom: 50px;*/
+	}
+	#why_for_large_screen{
+		margin:170px 0px 0px 40%;
+		font-size: 50px;
+		display: none;
+	}
+	#why_for_small_screen{
+		display: block;
+		font-size: 24px;
+		color: #262A4F;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	#why_for_small_screen1{
+		display: block;
+		text-align: center;
+		font-size: 12px;
+		font-family: poppins;
+		color: #6F6F6F;
+	}
+	#inner_box2{
+		display: flex;
+		align-items: center;
+		margin-left: 0%;
+		margin-top: 60px;
+	}
+	.testimonials {
+		text-align: center;
+	}
+	#testimonials {
+		display: flex;
+		text-align: center;
+		margin: 0px 34px 0px 34px;
+	}
+	.section {
+		/*position: relative;*/
+		min-height: 800px;
+
+	}
+	.phone_sample img{
+	max-height: 105px;
+	margin: 20px 0px;
+	/*overflow-y: hidden;*/
+	}
+	.phone_sample1 img{
+		max-height: 150px;
+		margin: 10px 10px;
+		max-width: 150px;
+	}
+	.phone_sample2 img{
+		max-height: 105px;
+		margin: 20px 0px;
+	}
+	.arrow1{
+		font-size:25px;
+		color: #262A4F;
+		width: 30px;
+	}
+	#booking {
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: roboto;
+		font-weight: bold;
+	}
+	#service_picture{
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 8px;
+		font-family: poppins;
+		color: #6F6F6F;
+		margin-bottom: 20px;
+	}
+	.testimonials h1{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 32px;
+		font-weight: bold;
+  		color: #262A4F;
+  		text-shadow: 1px 5px 4px rgba(38, 42, 79, 0.25);
+	}
+
+	.testimonial_picture2{
+		display: inline-block;
+		min-width: 100px;
+		max-width: 450px;
+		vertical-align: middle;
+		text-align: left;
+		margin:0px  0px 0px 5px;
+		font-family: poppins;
+		font-weight: 400px;
+		color: #6F6F6F;
+		line-height: 18px;
+		font-size: 12px;
+	}
+
+	.testimonial_picture img{
+		height: 82px;
+		width: 95px;
+	}
+	.word_color1{
+		color: #EC8206;
+	}
+	#text_content{
+		display: inline-block;
+		width: 272px;
+		/*min-height: 80px;*/
+		/*background: gold;*/
+		margin-left: 5px;
+		font-size: 10px;
+		font-family: poppins;
+		color: #6F6F6F;
+	}
+	#text_content h2{
+		font-weight: bold;
+		font-size: 20px;
+		color: #3D3D3D;
+	}
+	#inner_box1{
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		margin: 0px 0px 24px 0px;
+	}
+	#inner_box3{
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		margin: 0px 0px 24px 0px;
+		padding-left: 0px;
+	}
+	#inner_box2{
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		margin: 0px 0px 24px 0px;
+	}
+	#circle {
+		min-height: 60px;
+		min-width: 60px;
+		display: inline-block;
+		background: #EC8206;
+		border-radius: 50%;
+		margin-top: 0px;
+		/*display: absolute;*/
+		/*vertical-align: top;*/
+	}
+	#flex_circle{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 60px;
+		min-width: 60px;
+		border-radius: 50%;
+		background: #EC8206;
+		/*background: white;*/
+		/*vertical-align: middle;*/
+	}
+	#flex_circle img{
+		height: 25px;
+		/*margin-top: 18px;*/
+	}
+}
+@media screen and (min-width: 392px){
+
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 992px){
+
+}
+@media screen and (min-width: 1200px){
+	.home{
+		background: #FEFBF7;
+	}
+	.we-do{
+		text-align: center;
+		/*margin-top: 20px;*/
+	}
+	.we-do h1{
+		font-size: 50px;
+		font-weight: 700;
+		text-align: center;
+	  	/*margin: 0px 18px;*/
+	  	color: #262A4F;
+	  	font-family: 'roboto';
+	  	line-height: 70px;
+	  	/*background: blue;*/
+	}
+	.we-do h4{
+		font-family: poppins;
+		color: #6F6F6F;
+		font-size: 20px;
+		margin-bottom: 24px;
+		margin-top: 12px;
+	}
+	#findTechnicianButton{
+		/*margin-top: 30px;*/
+		display: flex;
+		height: 60px;
+		width: 270px;
+		background: #EC8206;
+		align-items: center;
+		border-radius: 40px;
+		color: white;
+		align-items: center;
+		justify-content: center;
+		/*margin-top: 30px;*/
+		margin: auto;
+		/*text-align: center;*/
+		/*justify-content: center;*/
+		box-shadow: 1px 5px 15px rgba(236, 130, 6, 0.5);
+		
+	}
+	#findTechnicianButton button{
+		font-family: poppins;
+		font-size: 20px;
+		color: #F0F2FF;
+	}
+	#phone-samples {
+		min-height: 375px;
+		background: #262A4F;
+		margin-top: 30px;
+		/*max-height: 100px;*/
+		/*text-align: center;*/
+		/*display: flex;*/
+		align-items: center;
+		justify-content: center;
+		display: flex;
+
+	}
+	.phone_sample img{
+		height: 315px;
+		margin: 20px 0px;
+		border: 2px solid black;
+		border-radius: 17px;
+		/*overflow-y: hidden;*/
+	}
+	.phone_sample1 img{
+		max-height: 315px;
+		margin: 20px 80px;
+	}
+	.phone_sample2 img{
+		max-height: 315px;
+		margin: 20px 0px;
+	}
+	.booking {
+		text-align: center;
+	  	color: #262A4F;
+	}
+	#booking {
+		text-align: center;
+		font-size: 40px;
+		margin-top: 50px;
+		font-weight: bold;
+	}
+	.word_color1{
+		color: #EC8206;
+	}
+	#service_picture{
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 20px;
+		font-family: poppins;
+		color: #6F6F6F;
+	}
+	#service_picture img{
+		width: 290px;
+		height: 290px;
+	}
+	.service_picture {
+		min-height: 45px;
+		min-width: 45px;
+		/*background: grey;*/
+		display: inline-block;
+		vertical-align: top;
+		margin: 5px;
+	}
+	.arrow1{
+		font-size:100px;
+		color: #262A4F;
+	}
+	.arrow1 p{
+		display: inline-block;
+		/*background: gold;*/
+	}
+	.testimonials {
+		text-align: center;
+	}
+	.testimonials h1{
+		margin-top: 80px;
+		margin-bottom: 30px;
+	}
+	.testimonial_picture{
+		display: inline-block;
+		min-width: 100px;
+		max-width: 450px;
+		/*min-height: 100px;*/
+		/*background: grey;*/
+		vertical-align: middle;
+		border-radius: 5px;
+	}
+	.testimonial_picture img{
+		height: 82px;
+		width: 95px;
+	}
+	.testimonial_picture2{
+		display: inline-block;
+		min-width: 100px;
+		max-width: 450px;
+		min-height: 100px;
+		vertical-align: middle;
+		margin:0px  10px 0px 10px;
+	}
+	#arrow_box{
+		display: flex;
+		justify-content: space-between;
+		margin: 6px 34px;
+	}
+
+	#find_button {
+		margin-top: 20px;
+	}
+
+	.section {
+		/*position: relative;*/
+		min-height: 1050px;
+		/*align-items: center;*/
+		/*justify-content: center;*/
+		/*margin-bottom: 50px;*/
+		margin-top: 50px;
+		/*z-index: 0;*/
+		/*background: gold;*/
+		margin-bottom: 70px;
+	}
+
+	#find_your {
+		display: flex;
+		position: absolute;
+		min-height: 80px;
+		width: 80%;
+		background: #262A4F;
+		margin-left: 5%;
+		margin-right: 5%;
+		z-index: 1;
+		align-items: center;
+		justify-items: center;
+		color: white;
+	}
+	#find_your_nearby_technician{
+		display: inline-block;
+		/*vertical-align: middle;*/
+		/*margin-left: 10%;*/
+		text-align: center;
+		color: #F0F2FF;
+
+	}
+	#find_a_technician{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		background: #EC8206;
+		/*padding: 10px;*/
+		height: 30px;
+		width: 192px;
+		/*text-align: center;*/
+		border-radius: 25px;
+		margin-top: 5px;
+		margin-left: auto;
+		min-width: 170px;
+		font-size: 16px;
+		color: #F0F2FF;
+	}
+	#why_us {
+		position: absolute;
+		min-height: 900px;
+		top:  1320px;
+		width: 100%;
+		background: #FFF3E4;
+		/*margin-left: 10%;*/
+		/*margin-bottom: 50px;*/
+	}
+	#why_for_large_screen{
+		margin:170px 0px 0px 40%;
+		font-size: 50px;
+	}
+	#why_for_small_screen{
+		display: none;
+	}
+	#why_for_small_screen1{
+		display: none;
+	}
+	#box1 {
+		/*max-height: 400px;*/
+		max-width: 30%;
+		display: inline-block;
+		/*background: #4d4c4c;*/
+		margin-top: 170px;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		border-radius: 20px;
+		vertical-align: top;
+	}
+	#box1 img{
+		max-height: 500px;
+	}
+	#box2 {
+		/*background: gray;*/
+		min-height: 400px;
+		display: inline-block;
+		/*width: 60%;*/
+		margin-left: 5%;
+		vertical-align: top;
+		margin-top: 80px;
+
+	}
+
+	#inner_box1{
+		display: flex;
+		align-items: center;
+	}
+	#inner_box3{
+		/*background: white;*/
+		margin-top: 60px;
+		display: flex;
+		align-items: center;
+	}
+	#inner_box2{
+		margin-left: 20%;
+		margin-top: 60px;
+	}
+	#circle {
+		min-height: 80px;
+		min-width: 80px;
+		display: inline-block;
+		background: #EC8206;
+		border-radius: 50%;
+		margin-top: 20px;
+		/*display: absolute;*/
+		/*vertical-align: top;*/
+	}
+	#flex_circle{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/*background: white;*/
+		/*vertical-align: middle;*/
+	}
+	#flex_circle img{
+		max-height: 50px;
+		/*margin-top: 18px;*/
+	}
+
+	#text_content{
+		display: inline-block;
+		/*min-width: 50%;*/
+		/*min-height: 80px;*/
+		/*background: gold;*/
+		margin-left: 15px;
+		font-size: 15px;
+	}
+	#text_content h2{
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	#heading{
+		/*line-height: 5px;*/
+	}
+
+	#arrow_left {
+	  background: #262A4F;
+		display: flex;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		align-items: center;
+		justify-content: center;
+	}
+	#arrow_right {
+	  background: #262A4F;
+		display: flex;
+		margin-left: 50%;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.arrow {
+	  border: solid white;
+	  border-width: 0 1px 1px 0;
+	  display: inline-block;
+	  /*padding: 3px;*/
+	  min-height: 6px;
+	  min-width: 6px;
+	  margin-left: 3px;
+	}
+	.arrow2 {
+	  border: solid white;
+	  border-width: 0 1px 1px 0;
+	  display: inline-block;
+	  /*padding: 3px;*/
+	  min-height: 6px;
+	  min-width: 6px;
+	  margin-right: 3px;
+	}
+
+	.right {
+	  transform: rotate(-45deg);
+	  -webkit-transform: rotate(-45deg);
+	}
+
+	.left {
+	  transform: rotate(135deg);
+	  -webkit-transform: rotate(135deg);
+	}
+
+
+}

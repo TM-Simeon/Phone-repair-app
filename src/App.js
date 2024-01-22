@@ -13,6 +13,7 @@ import ProductPreviewAndRatings from './pages/product-preview-ratings/ProductPre
 
 import './App.css'
 import ScrollToTheTop from './hook/ScrollToTheTop';
+import CreateMostUsedTechnicians from './pages/admin/createMostUsedTechnicians/CreateMostUsedTechnicians';
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
               element={<SingleTechnicianPage />}
             />
             <Route exact path='/payment' element={<Payment />} />
+            <Route exact path='/admin/create-technicians' element={<CreateMostUsedTechnicians />} />
             <Route
               exact
               path='/product-preview-and-ratings'
