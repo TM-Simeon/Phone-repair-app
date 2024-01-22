@@ -65,6 +65,27 @@ const Home = () => {
 					</span>
 
 				</div>
+				<div id="service_picture1">
+					<span className="service_picture">
+    					<img src={service_search} alt="service search"/>
+    					<p>Find a technician</p>
+					</span>
+					<span className="arrow1">
+						<p>&#8594;</p>
+					</span>
+					<span className="service_picture">
+						<img src={appointment_schedule} alt="appointment schedule"/>
+    					<p>Appointment scheduling</p>
+					</span>
+					<span className="arrow1">
+						<p>&#8594;</p>
+					</span>
+					<span className="service_picture">
+						<img src={make_payment} alt="make payment"/>
+    					<p>Make payment</p>
+					</span>
+
+				</div>
 				<div id="findTechnicianButton">
 					<Link to="technician">
 					<button>Find a technician</button>
@@ -116,10 +137,8 @@ const Home = () => {
 
 					<div id="box2">
 						<div id="inner_box1">
-							<div id="circle">
-								<div id="flex_circle">
-									<img src={mail_certified} alt="mail certified"/>
-								</div>
+							<div id="flex_circle">
+								<img src={mail_certified} alt="mail certified"/>
 							</div>
 							<div id="text_content">
 								<h2 id="heading">Certified Technicians</h2>
@@ -128,10 +147,8 @@ const Home = () => {
 							
 						</div>
 						<div id="inner_box2">
-							<div id="circle">
 							<div id="flex_circle">
 								<img src={bikeman} alt="bike man"/>
-							</div>
 							</div>
 							<div id="text_content">
 								<h2 id="heading">Express Service</h2>
@@ -144,8 +161,9 @@ const Home = () => {
 								<img src={vector} alt="vector"/>
 							</div>
 							<div id="text_content">
-								<h2 id="heading">Time Management</h2>
-								<p id="text">Efficient time management is a key feature, allowing technicians to complete repairs within a reasonable  timeframe and minimize downtime for the customer. </p>
+								<h2 id="heading">Protection Plan</h2>
+								<p id="text">A protection plan is a service or agreement offered by a provider to safeguard against potential risks, damages, or unforeseen events. These plans are commonly associated with services. </p>
+								
 							</div>
 							
 						</div>
@@ -154,8 +172,8 @@ const Home = () => {
 								<img src={timer} alt="timer"/>
 							</div>
 							<div id="text_content">
-								<h2 id="heading">Protection Plan</h2>
-								<p id="text">A protection plan is a service or agreement offered by a provider to safeguard against potential risks, damages, or unforeseen events. These plans are commonly associated with services. </p>
+								<h2 id="heading">Time Management</h2>
+								<p id="text">Efficient time management is a key feature, allowing technicians to complete repairs within a reasonable  timeframe and minimize downtime for the customer. </p>
 							</div>
 							
 						</div>
