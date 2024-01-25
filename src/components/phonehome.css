@@ -1,4 +1,4 @@
-@media screen and (min-width: 201px){
+@media screen and (min-width: 201px) and (max-width: 391px){
 	.home{
 		background: #FEFBF7;
 	}
@@ -374,7 +374,7 @@
 
 
 
-@media screen and (min-width: 392px) and (max-width: 900px){
+@media screen and (min-width: 392px) and (max-width: 1099px){
 	.home{
 		background: #FEFBF7;
 	}
