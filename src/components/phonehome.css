@@ -1,4 +1,4 @@
-@media screen and (min-width: 201px) and (max-width: 391px){
+@media screen and (min-width: 201px){
 	.home{
 		background: #FEFBF7;
 	}
@@ -735,12 +735,12 @@
 	  -webkit-transform: rotate(135deg);
 	}
 }
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
 
 }
 @media screen and (min-width: 992px){
 
-}
+}*/
 @media screen and (min-width: 1100px){
 	.home{
 		background: #FEFBF7;
