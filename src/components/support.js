@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './support.css';
 import './supportmobile.css';
 import qanda from '../images/qanda.png'
@@ -14,7 +14,7 @@ const Support = () => {
 				</div>
 			<div className="got-questions">
 				<h1>YOU GOT QUESTIONS? <br/> WE GOT ANSWERS!</h1>
-				<h4>Feel free to ask anything and i'll provide the best guidance and clarification<br></br>on any topic you have in mind</h4>
+				<h4>Feel free to ask anything and i'll provide the best guidance and clarification on any topic you have in mind</h4>
 				
 			</div>
 			<div id="support-block">
@@ -37,12 +37,16 @@ const Support = () => {
 						<p>Payment is securely processed through our platform before service completion, with technicians setting prices and providing a clear breakdown before confirmation.</p>
 					</div>
 					<div className="show_more">
-						<div id="show_more_icon">
-							<div id="arrow_down"><i class="arrow down"></i></div>
-						</div>
-						<div id="show_more_text">
-							<h4>show more</h4>
-						</div>
+						<Link to="#">
+							<div id="show_more_icon">
+								<div id="arrow_down"></div>
+							</div>
+						</Link>
+						<Link to="#">
+							<div id="show_more_text">
+								<h4>show more</h4>
+							</div>
+						</Link>
 					</div>
 				</div>
 				<div id="details">
@@ -55,7 +59,9 @@ const Support = () => {
 					<a href="support" id="linksToSupport"><p>Can't find the answer you are looking for? please chat with our team.</p></a>
 
 				</div>
-				<div id="get-in-touch"><h4>Get in touch</h4></div>
+				<Link to="#">
+					<div id="get-in-touch"><h4>Get in touch</h4></div>
+				</Link>
 			</div>
 		</div>
 	)

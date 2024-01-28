@@ -10,29 +10,7 @@ import orangeStar from '../../images/OrangeStar.png';
 import greyStar from '../../images/greyStar.png';
 
 const SingleTechnicianPage = () => {
-  // const { id } = useParams();
-  // console.log(id, 'useParams id');
-  
-  // const { state } = useLocation();
-  //   const {id, img, name, experience, location, stars} = state.technician
-  // console.log(state, 'useLocation');
-  //   const {img, name, experience, stars } =
-  //     state;
 
-  // let userId = id
-
-  // const dbRef = ref(getDatabase());
-  // get(child(dbRef, `Technicians/${userId}`))
-  //   .then((snapshot) => {
-  //     if (snapshot.exists()) {
-  //       console.log(snapshot.val());
-  //     } else {
-  //       console.log('No data available');
-  //     }
-  //   })
-  //   .catch((error) => {
-  //     console.error(error);
-  //   });
   const [activeButton, setActiveButton] = useState('overview');
 
   const handleButtonClick = (buttonId) => {
@@ -126,9 +104,9 @@ const SingleTechnicianPage = () => {
                 <h1>Real experience with technicians</h1>
                 <h4>october 23, 2023</h4>
                 <p>
-                  Amazing Fix! Shoutout to [Ibrahim] from Gadget Glide! They
-                  worked<br></br> wonders on my phonoe, and now it;s good as
-                  new! Super friendly and got<br></br> the job done quickly.
+                  Amazing Fix! Shoutout to [Ibrahim] from Gadget Glide! &#127775; They
+                  worked wonders on my phonoe, and now it;s good as
+                  new! Super friendly and got the job done quickly.
                   Couldn't be happier with the service!
                 </p>
               </div>
@@ -143,13 +121,13 @@ const SingleTechnicianPage = () => {
               <h2>Background</h2>
               <div id='expert-details'>
                 <div id='details-half'>
-                  <span>Expertise</span>
+                  <span className="details-heading">Expertise</span>
                   <span>Mobile Phone</span>
                   <span>ipod</span>
                 </div>
                 <div id='divline'></div>
                 <div id='details-half'>
-                  <span>Disciplines</span>
+                  <span className="details-heading">Disciplines</span>
                   <span>Hardware</span>
                   <span>Software</span>
                 </div>
@@ -161,7 +139,7 @@ const SingleTechnicianPage = () => {
                 </div>
                 <h5>21 completed sessions</h5>
               </div>
-              <h4>Available sessions</h4>
+              <h6 id="available-sessions">Available sessions</h6>
               <p>Book 1:1 sessions from the options based on your needs</p>
               <div id="booking-block">
                 <div id="open-for-booking">Open for booking</div>

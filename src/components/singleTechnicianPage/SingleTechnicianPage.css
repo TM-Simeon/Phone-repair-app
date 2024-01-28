@@ -2,265 +2,276 @@
 	padding: 0;
 	margin: 0;
 }
-.SingleTechnicianPage{
-	background: #FEFBF7;
-}
+@media screen and (min-width: 900px){
+	.SingleTechnicianPage{
+		background: #FEFBF7;
+	}
 
-#blue-div{
-	min-height: 110px;
-	background: #262A4F;
-	width: 100%;
-}
+	#blue-div{
+		min-height: 110px;
+		background: #262A4F;
+		width: 100%;
+	}
 
-#content-div{
-	/*position: absolute;*/
-	top: 200px;
-	/*background: red;*/
-	min-height: 600px;
-	width: 100%;
-}
+	#content-div{
+		/*position: absolute;*/
+		top: 200px;
+		/*background: red;*/
+		min-height: 600px;
+		width: 100%;
+	}
 
-#content-elements{
-	position: static;
-	margin-top: -60px;
-	/*top: 160px;*/
-	margin-bottom: 40px;
-	/*min-height: 600px;*/
-	width: 100%;
-}
-#content-div1and2{
-	display: inline-block;
-	min-width: 50%;
-	vertical-align: top;
-	margin-left: 5%;
-	/*border: 3px solid black;*/
-}
+	#content-elements{
+		position: static;
+		margin-top: -60px;
+		/*top: 160px;*/
+		margin-bottom: 40px;
+		/*min-height: 600px;*/
+		width: 100%;
+	}
+	#content-div1and2{
+		display: inline-block;
+		width: 740;
+		vertical-align: top;
+		margin-left: 5%;
+		/*background: blue;*/
+		/*border: 3px solid black;*/
+	}
 
-#content-div1{
-	/*position: absolute;*/
-	/*top: 160px;*/
-	background: url("../../images/singleTechnician.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	min-height: 250px;
-	width: 45%;
-	display: inline-block;
-	/*margin-left: 5%;*/
-	border-radius: 5px;
-	vertical-align: top;
-	/*border: 3px solid blue;*/
-}
-/*#singleTechnician{
-	width: 500px;
-}*/
+	#content-div1{
+		/*position: absolute;*/
+		/*top: 160px;*/
+		background: url("../../images/singleTechnician.png");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 342px;
+		width: 387px;
+		display: inline-block;
+		/*margin-left: 5%;*/
+		border-radius: 5px;
+		vertical-align: top;
+		/*border: 3px solid blue;*/
+	}
+	/*#singleTechnician{
+		width: 500px;
+	}*/
 
-#content-div2{
-	/*position: absolute;*/
-	/*top: 220px;*/
-	/*background: green;*/
-	min-height: 200px;
-	width: 45%;
-	display: inline-block;
-	/*margin-left: 20%;*/
-	border-radius: 5px;
-	margin-left: 25px;
-	margin-top: 70px;
-	vertical-align: top;
-	/*border: 3px solid green;*/
+	#content-div2{
+		min-height: 232px;
+		width: 340px;
+		display: inline-block;
+		border-radius: 5px;
+		margin-left: 25px;
+		margin-top: 70px;
+		vertical-align: top;
+
+	}
+	#content-div2 h1{
+		font-size: 40px;
+	}
+	#content-div3{
+		/*background: pink;*/
+		width: 40%;
+		display: inline-block;
+		border: 2px solid gray;
+		border-radius: 15px;
+		margin-top: 180px;
+		margin-left: -5%;
+		min-height: 400px;
+	}
+	#content-div3None{
+		/*background: blue;*/
+		width: 50%;
+		display: none;
+		border: 2px solid gray;
+		border-radius: 15px;
+		margin-top: 180px;
+		margin-left: -5%;
+		min-height: 400px;
+	}
+	#content-div3 h2{
+		margin-top: 25px;
+	}
+	#content-div3 h4{
+		margin: 20px 0px;
+	}
+
+	#technicianBrief h3{
+		margin-bottom: 10px;
+	}
+	#technicianBrief h4{
+		margin-top: 15px;
+		font-size: 14px;
+	}
+	#technicianBriefNone {
+		display: none;
+	}
+	#expert-details{
+		width: 60%;
+		margin: 5px 0px 5px 0px;
+		background: #e8e8e6;
+		min-height: 100px;
+		border-radius: 15px;
+		/*display: flex;*/
+		flex-direction: row;
+	}
+	#divline{
+		min-height: 2px;
+		background: black;
+	}
+
+	#details-half{
+		min-height: 40px;
+		/*background: white;*/
+		display: flex;
+		align-items: center;
+
+	}
+	#details-half span{
+		margin: 0px 5%;
+	}
+	#details-half span:first-of-type{
+		margin-left: 2%;
+		font-weight: bold;
+	}
+	#details-half span:nth-of-type(3){
+		float: right;
+		margin-right: 0px;
+	}
+
+	#completed-sessions{
+		display: inline-block;
+		min-height: 40px;
+		min-width: 40px;
+		background: #F0F0FD;
+		border-radius: 30%;
+	}
+	#completed-sessions img{
+		margin: auto;
+		margin-top: 8px;
+	}
+	.completed-sessions{
+		display: flex;
+		align-items: center;
+		/*margin-left: 3%;*/
+	}
+	.completed-sessions h5{
+		margin-left: 5%;
+	}
+
+	#give-padding{
+		margin-left: 30px;
+		/*background: gold;*/
+	}
+	#booking-block{
+		background: #F0F0FD;
+		width: 80%;
+		min-height: 70px;
+		display: flex;
+		align-items: center;
+		border-radius: 15px;
+		margin: 10px 0px;
+		align-items: center;
+	}
+	#open-for-booking{
+		display: inline-block;
+		margin-left: 15px;
+	}
+	#book:nth-of-type(2){
+		margin-left: 40%;
+	}
+	#book:first-of-type{
+		margin-top: 20px;
+	}
+	#book{
+		display: inline-block;
+		background: #EC8206;
+		padding: 5px 25px;
+		border-radius: 15px;
+	}
+	#book2{
+		background: #EC8206;
+		padding: 5px 25px;
+		border-radius: 15px;
+		margin-right: auto;
+		margin-left: 170px;
+	}
+	#links{
+		margin-bottom: 25px;
+	}
+	#review{
+		margin-left: 25px;
+	}
+	#links button{
+		cursor: pointer;
+		border: none;
+	}
+
+	#links button.active{
+		border-bottom: 5px solid #262A4F;
+	}
+
+	#reviewBriefNone{
+		display: none;
+	}
+	#reviewBrief{
+		width: 740px;
+	}
+
+	.scoreSpan{
+		/*background: blue;*/
+		width: 40%;
+		display: inline-block;
+		vertical-align: top;
+		/*min-height: 20px;*/
+	}
+	.scoreSpan:nth-of-type(2){
+		margin-left: 10%;
+	}
+	.tagName{
+		display: inline-block;
+	}
+	.tagValue{
+		float: right;
+		display: inline-block;
+	}
+	#coloredPercent{
+		width: 80%;
+		background: #EC8206;
+		min-height: 2px;
+	}
+	#uncoloredPercent{
+		background: grey;
+		margin-top: 10px;
+	}
+	.dataLogUnit:nth-of-type(2){
+		margin-top: 30px;
+	}
+	#textLog{
+		display: inline-block;
+		width: 100%;
+		margin-top: 40px;
+	}
+	#textLog h1{
+		font-weight: bold;
+	}
+	#textLog h4{
+		margin: 10px 0px;
+		opacity: 0.5;
+	}
+	#textLog p{
+		font-size: 20px;
+		line-height: 30px;
+		font-family: poppins;
+		font-weight: 400;
+	}
+	.star{
+		display: inline;
+		margin: 0px 5px;
+	}
+	.stars:first-of-type{
+		margin-left: 0px;
+	}
 
 }
-#content-div3{
-	/*background: blue;*/
-	width: 45%;
-	display: inline-block;
-	border: 2px solid gray;
-	border-radius: 15px;
-	margin-top: 180px;
-	margin-left: -5%;
-	min-height: 400px;
-}
-#content-div3None{
-	/*background: blue;*/
-	width: 50%;
-	display: none;
-	border: 2px solid gray;
-	border-radius: 15px;
-	margin-top: 180px;
-	margin-left: -5%;
-	min-height: 400px;
-}
-#content-div3 h2{
-	margin-top: 25px;
-}
-#content-div3 h4{
-	margin: 20px 0px;
-}
-
-#technicianBrief h3{
-	margin-bottom: 10px;
-}
-#technicianBrief h4{
-	margin-top: 15px;
-	font-size: 14px;
-}
-#technicianBriefNone {
-	display: none;
-}
-#expert-details{
-	width: 60%;
-	margin: 5px 0px 5px 0px;
-	background: #e8e8e6;
-	min-height: 100px;
-	border-radius: 15px;
-	/*display: flex;*/
-	flex-direction: row;
-}
-#divline{
-	min-height: 2px;
-	background: black;
-}
-
-#details-half{
-	min-height: 40px;
-	/*background: white;*/
-	display: flex;
-	align-items: center;
-
-}
-#details-half span{
-	margin: 0px 5%;
-}
-#details-half span:first-of-type{
-	margin-left: 2%;
-	font-weight: bold;
-}
-#details-half span:nth-of-type(3){
-	float: right;
-	margin-right: 0px;
-}
-
-#completed-sessions{
-	display: inline-block;
-	min-height: 40px;
-	min-width: 40px;
-	background: #F0F0FD;
-	border-radius: 30%;
-}
-#completed-sessions img{
-	margin: auto;
-	margin-top: 8px;
-}
-.completed-sessions{
-	display: flex;
-	align-items: center;
-	/*margin-left: 3%;*/
-}
-.completed-sessions h5{
-	margin-left: 5%;
-}
-
-#give-padding{
-	margin-left: 30px;
-}
-#booking-block{
-	background: #F0F0FD;
-	width: 80%;
-	min-height: 70px;
-	display: flex;
-	align-items: center;
-	border-radius: 15px;
-	margin: 10px 0px;
-	align-items: center;
-}
-#open-for-booking{
-	display: inline-block;
-	margin-left: 15px;
-}
-#book:nth-of-type(2){
-	margin-left: 40%;
-}
-#book:first-of-type{
-	margin-top: 20px;
-}
-#book{
-	display: inline-block;
-	background: #EC8206;
-	padding: 5px 25px;
-	border-radius: 15px;
-}
-#book2{
-	background: #EC8206;
-	padding: 5px 25px;
-	border-radius: 15px;
-	margin-right: auto;
-	margin-left: 170px;
-}
-#links{
-	margin-bottom: 25px;
-}
-#review{
-	margin-left: 25px;
-}
-#links button{
-	cursor: pointer;
-	border: none;
-}
-
-#links button.active{
-	border-bottom: 5px solid #262A4F;
-}
-
-#reviewBriefNone{
-	display: none;
-}
-
-.scoreSpan{
-	/*background: blue;*/
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-	/*min-height: 20px;*/
-}
-.scoreSpan:nth-of-type(2){
-	margin-left: 10%;
-}
-.tagName{
-	display: inline-block;
-}
-.tagValue{
-	float: right;
-	display: inline-block;
-}
-#coloredPercent{
-	width: 80%;
-	background: #EC8206;
-	min-height: 2px;
-}
-#uncoloredPercent{
-	background: grey;
-	margin-top: 10px;
-}
-.dataLogUnit:nth-of-type(2){
-	margin-top: 30px;
-}
-#textLog{
-	display: inline-block;
-	width: 100%;
-	margin-top: 40px;
-}
-#textLog h1{
-	font-weight: bold;
-}
-#textLog h4{
-	margin: 10px 0px;
-	opacity: 0.5;
-}
-.star{
-	display: inline;
-	margin: 0px 5px;
-}
-.stars:first-of-type{
-	margin-left: 0px;
-}
-
