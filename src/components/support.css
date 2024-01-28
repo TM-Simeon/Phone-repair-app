@@ -112,8 +112,8 @@
 
 	.more-questions{
 		background: #F0F0FD;
-		min-width: 1528px;
-		margin: 54px 100px 80px 100px;
+		/*min-width: 82%;*/
+		margin: 54px 78px 80px 100px;
 		/*margin-top: 54px;*/
 		border-radius: 10px;
 		min-height: 137px;
