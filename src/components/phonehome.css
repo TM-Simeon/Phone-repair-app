@@ -984,15 +984,16 @@
 		vertical-align: top;
 	}
 	#box1 img{
-		height: 716px;
-		width: 552px;
+		/*height: 40vw;*/
+		width: 40vw;
 	}
 	#box2 {
-		/*background: gray;*/
+		/*background: blue;*/
 		min-height: 400px;
 		display: inline-block;
-		/*width: 60%;*/
-		margin-left: 5%;
+		width: 55vw;
+		/*max-width: 700px;*/
+		margin-left: 3vw;
 		vertical-align: top;
 		margin-top: 80px;
 
@@ -1025,14 +1026,7 @@
 	#inner_box2 p{
 		width: 525px;
 	}
-/*	#circle {
-		min-height: 80px;
-		min-width: 80px;
-		display: inline-block;
-		background: #EC8206;
-		border-radius: 50%;
-		margin-top: 20px;
-	}*/
+
 	#flex_circle{
 		display: flex;
 		align-items: center;
@@ -1123,3 +1117,4 @@
 
 
 }
+
