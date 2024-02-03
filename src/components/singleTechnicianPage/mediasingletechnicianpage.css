@@ -34,7 +34,7 @@
 	#content-div1{
 		/*position: absolute;*/
 		/*top: 160px;*/
-		background: url("../../images/singleTechnician.png");
+		/*background: url("../../images/singleTechnician.png");*/
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -45,6 +45,11 @@
 		border-radius: 5px;
 		vertical-align: top;
 		/*border: 3px solid blue;*/
+	}
+	#content_div1_img{
+		height: 116px;
+		width: 122px;
+		border-radius: 20px;
 	}
 	/*#singleTechnician{
 		width: 500px;
@@ -249,24 +254,33 @@
 		font-size: 10px;
 		min-width: 90px;
 	}
-	#book:nth-of-type(2){
+/*	#book:nth-of-type(2){
 		margin-right: 21px;
 		font-size: 8px;
 		line-height: 11px;
 		padding: 1px 10px;
+		background: black;
 	}
 	#book:first-of-type{
 		margin-top: 20px;
 		float: right;
 		padding: 3px 20px;
+		background: gold;
+	}*/
+	.book1{
+		margin-top: 10px;
+		margin-left: 100px;
+	}
+	.book2{
+		margin-right: 20px;
 	}
 	#book{
 		display: inline-block;
 		background: #EC8206;
-		/*padding: 3px 30px;*/
+		padding: 3px 10px;
 		border-radius: 15px;
-		font-size: 16px;
-		line-height: 24px;
+		font-size: 12px;
+		line-height: 12px;
 		font-weight: 400;
 		font-family: poppins;
 		color: #F0F2FF;

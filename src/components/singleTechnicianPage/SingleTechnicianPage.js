@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import './SingleTechnicianPage.css';
 import './mediasingletechnicianpage.css';
+import technician_image from '../../images/single_technician.jpg'
 // import { Link, useParams, useLocation } from 'react-router-dom';
 import technicianStar from '../../images/technicianStar.png';
 import orangeStar from '../../images/OrangeStar.png';
@@ -23,7 +24,9 @@ const SingleTechnicianPage = () => {
       <div id='content-div'>
         <div id='content-elements'>
           <div id='content-div1and2'>
-            <div id='content-div1'></div>
+            <div id='content-div1'>
+              <img src={technician_image} alt="" id="content_div1_img"/>
+            </div>
             <div id='content-div2'>
               <h1>Wahab Ibrahim</h1>
               <p>Location</p>
@@ -36,7 +39,9 @@ const SingleTechnicianPage = () => {
               <img src={orangeStar} alt='*' className='star' />
               <img src={greyStar} alt='*' className='star' />
               <div>
-                <div id="book">Book</div>
+              <Link to="/payment">
+                <div id="book" className="book1">Book</div>
+              </Link>
               </div>
             </div>
             <div id='links'>
@@ -143,7 +148,9 @@ const SingleTechnicianPage = () => {
               <p>Book 1:1 sessions from the options based on your needs</p>
               <div id="booking-block">
                 <div id="open-for-booking">Open for booking</div>
-                <div id="book">Book</div>
+                <Link to="/payment">
+                <div id="book" className="book2">Book</div>
+                </Link>
               </div>
             </div>
           </div>

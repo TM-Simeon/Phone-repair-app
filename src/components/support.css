@@ -21,6 +21,8 @@
 		/*background: blue;*/
 	}
 	.got-questions h4{
+		width: 58%;
+		margin:auto;
 		font-size: 20px;
 		color: #3D3D3D;
 		font-weight: 400;
@@ -38,10 +40,11 @@
 		min-width: 20%;
 	}
 	.questions{
-		margin: 0px 0px 15px 0px;
+		margin: 0px 0px 10px 0px;
+		/*transform: scale(0.8);*/
 	}
 	.questions:first-of-type{
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 	.questions h3{
 		font-weight: bold;
@@ -51,7 +54,7 @@
 	}
 	.questions p{
 		font-weight: 400;
-		font-size: 20px;
+		font-size: 16px;
 		font-family: poppins;
 		color: #3D3D3D;
 	}
@@ -60,15 +63,15 @@
 		/*max-height: 400px;*/
 		/*background: grey;*/
 		/*min-width: 30%;*/
-		width: 40vw;
+		/*min-width: 40vw;*/
 		vertical-align: top;
 		margin-right: 5%;
 		border-radius: 15px;
 		float: right;
 	}
 	#qanda{
-		height: 626px;
-		width: 792px;
+		height: 469px;
+		width: 594px;
 		border-radius: 20px;
 	}
 

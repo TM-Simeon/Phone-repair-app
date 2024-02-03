@@ -31,7 +31,7 @@
 	}
 	#content-div1and2{
 		display: inline-block;
-		width: 740;
+		min-width: 40%;
 		vertical-align: top;
 		margin-left: 5%;
 		/*background: blue;*/
@@ -41,17 +41,23 @@
 	#content-div1{
 		/*position: absolute;*/
 		/*top: 160px;*/
-		background: url("../../images/singleTechnician.png");
+		/*background: url("../../images/singleTechnician.png");*/
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		height: 342px;
-		width: 387px;
+		/*height: 342px;*/
+		/*width: 387px;*/
 		display: inline-block;
 		/*margin-left: 5%;*/
-		border-radius: 5px;
+		/*background: red;*/
+		border-radius: 20px;
 		vertical-align: top;
 		/*border: 3px solid blue;*/
+	}
+	#content_div1_img{
+		height: 342px;
+		width: 387px;
+		border-radius: 20px;
 	}
 	/*#singleTechnician{
 		width: 500px;
@@ -59,12 +65,14 @@
 
 	#content-div2{
 		min-height: 232px;
-		width: 340px;
+		/*width: 340px;*/
 		display: inline-block;
 		border-radius: 5px;
 		margin-left: 25px;
 		margin-top: 70px;
 		vertical-align: top;
+		/*background: red;*/
+		/*float: right;*/
 
 	}
 	#content-div2 h1{
@@ -76,9 +84,10 @@
 		display: inline-block;
 		border: 2px solid gray;
 		border-radius: 15px;
-		margin-top: 180px;
+		margin-top: 200px;
 		margin-left: -5%;
 		min-height: 400px;
+		/*background: blue;*/
 	}
 	#content-div3None{
 		/*background: blue;*/
@@ -173,22 +182,29 @@
 		border-radius: 15px;
 		margin: 10px 0px;
 		align-items: center;
+		justify-content: space-between;
 	}
 	#open-for-booking{
 		display: inline-block;
+		min-width: 150px;
 		margin-left: 15px;
+		/*background: gold;*/
 	}
-	#book:nth-of-type(2){
-		margin-left: 40%;
+	.book1{
+		margin-top: 30px;
 	}
-	#book:first-of-type{
-		margin-top: 20px;
+
+	.book2{
+		margin-right: 20px;
 	}
 	#book{
 		display: inline-block;
 		background: #EC8206;
 		padding: 5px 25px;
 		border-radius: 15px;
+	}
+	#no_margin_top{
+		margin-top: 0px;
 	}
 	#book2{
 		background: #EC8206;
@@ -199,6 +215,9 @@
 	}
 	#links{
 		margin-bottom: 25px;
+		/*display: block;*/
+		/*background: white;*/
+		/*width: 100%;*/
 	}
 	#review{
 		margin-left: 25px;
