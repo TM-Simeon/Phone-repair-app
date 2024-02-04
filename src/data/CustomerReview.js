@@ -1,5 +1,5 @@
 import img1 from '../images/Rectangle 111.png';
-import orangeStar from '../images/OrangeStar.png';
+// import orangeStar from '../images/OrangeStar.png';
 
 const CustomerReview = [
   {

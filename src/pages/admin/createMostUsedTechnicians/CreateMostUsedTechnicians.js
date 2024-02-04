@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 // import { database, ref, set } from '../../../firebase/firebaseConfig';
-import { database } from '../../../firebase/firebaseConfig';
+// import { database } from '../../../firebase/firebaseConfig';
 import { getDatabase, ref, set } from 'firebase/database';
-import { getFirestore, collection, doc, setDoc } from 'firebase/firestore';
+// import { getFirestore, collection, doc, setDoc } from 'firebase/firestore';
 import Input from '../../../components/find-a-technician/input/Input';
 import Textarea from '../../../components/find-a-technician/textarea/Textarea';
 import dropdownarrow from '../../../images/dropdownarrow.svg';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { getDatabase, ref, child, get } from 'firebase/database';
-import { useParams } from 'react-router-dom';
+// import { getDatabase, ref, child, get } from 'firebase/database';
+// import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import './SingleTechnicianPage.css';
 import './mediasingletechnicianpage.css';

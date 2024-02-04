@@ -29,7 +29,9 @@ const FindATechnician = () => {
       [e.target.name]: e.target.value,
     });
   };
-  const { location, phoneNumber, clientLocation } = logIn;
+  const { location, clientLocation } = logIn;
+
+  // const { location, phoneNumber, clientLocation } = logIn;
 
   // Initialize state, checking localStorage for a stored value
   const [isChecked, setChecked] = useState(() => {

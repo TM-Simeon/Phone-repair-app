@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomerReview from '../../data/CustomerReview';
-import Button from '../../components/button/Button';
+// import Button from '../../components/button/Button';
 import rating5stars from '../../images/rating5stars.png';
 import rating4stars from '../../images/rating4stars.png';
 import rating3stars from '../../images/rating3stars.png';

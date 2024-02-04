@@ -132,6 +132,16 @@
 		border-radius: 50%;
 		background: #262A4F;
 	}
+	#show_more_text{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 10px;
+		margin-top: 3px;
+		color: #EC8206;
+		font-size: 12px;
+		font-family: poppins;
+
+	}
 	#arrow_down{
 		transform: rotate(45deg);
 		-webkit-transform: rotate(45deg);

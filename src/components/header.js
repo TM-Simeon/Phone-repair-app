@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Image from '../icons/logo.svg';
-import harmbuger from '../icons/hamburger.svg';
+// import harmbuger from '../icons/hamburger.svg';
 import './header.css';
 import './footer.css';
 
