@@ -64,16 +64,22 @@
 	.phone_sample img{
 		max-height: 150px;
 		margin: 20px 0px;
-		/*overflow-y: hidden;*/
+		border: 2px solid black;
+		border-radius: 10px;
 	}
 	.phone_sample1 img{
 		max-height: 150px;
 		margin: 20px 80px;
+		border: 3px solid black;
+		border-radius: 10px;
 	}
 	.phone_sample2 img{
 		max-height: 150px;
 		margin: 20px 0px;
+		border: 2px solid black;
+		border-radius: 10px;
 	}
+
 	#find_your {
 		display: block;
 		position: static;
@@ -444,18 +450,24 @@
 		justify-content: center;
 
 	}
+
 	.phone_sample img{
 		max-height: 150px;
 		margin: 20px 0px;
-		/*overflow-y: hidden;*/
+		border: 2px solid black;
+		border-radius: 10px;
 	}
 	.phone_sample1 img{
 		max-height: 150px;
 		margin: 20px 80px;
+		border: 3px solid black;
+		border-radius: 10px;
 	}
 	.phone_sample2 img{
 		max-height: 150px;
 		margin: 20px 0px;
+		border: 2px solid black;
+		border-radius: 10px;
 	}
 	#find_your {
 		display: block;
@@ -757,7 +769,7 @@
 	  -webkit-transform: rotate(135deg);
 	}
 }
-@media screen and (min-width: 501px){
+@media screen and (min-width: 631px){
 	.home{
 		background: #FEFBF7;
 		/*background: blue;*/
@@ -903,7 +915,7 @@
 		font-weight: 400px;
 		color: #6F6F6F;
 		line-height: 18px;
-		font-size: 20px;
+		font-size: 10px;
 	}
 	.testimonial_picture2_2{
 		display: inline-block;
@@ -916,7 +928,7 @@
 		font-weight: 400px;
 		color: #6F6F6F;
 		line-height: 18px;
-		font-size: 20px;
+		font-size: 10px;
 	}
 	#arrow_box{
 		display: flex;
@@ -1052,27 +1064,29 @@
 	}
 	#box1 {
 		display: inline-block;
-		max-width: 33%;
-		width: 32%;
+		max-width: 37%;
+		width: 35%;
 		margin-top: 170px;
 		border-radius: 0px;
 		/*background: white;*/
 		text-align: center;
-		/*background: white;*/
+		/*background: blue;*/
 	}
 	#box1 img{
 		margin: auto;
-		max-height: 716px;
-		max-width: 552px;
-		height: 429px;
-		width: 331px;
+		max-height: 260px;
+		max-width: 201px;
+		height: 259px;
+		width: 200px;
+		min-width: 199px;
+		min-height: 258px;
 	}
 	#box2 {
 		/*background: gray;*/
 		min-height: 400px;
 		display: inline-block;
-		max-width: 65%;
-		width: 64%;
+		max-width: 60%;
+		width: 59%;
 		vertical-align: top;
 		margin-top: 30px;
 		/*background: white;*/
@@ -1102,8 +1116,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		min-height: 100px;
-		min-width: 100px;
+		min-height: 80px;
+		min-width: 80px;
 		border-radius: 50%;
 		background: #EC8206;
 		/*background: white;*/
