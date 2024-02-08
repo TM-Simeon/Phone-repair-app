@@ -6,9 +6,11 @@ import service_search from '../images/service_search.png';
 import appointment_schedule from '../images/appointment_schedule.png'
 import make_payment from '../images/make_payment.png'
 // import bad_phone_screen from '../images/bad_phone_screen.png'
-import first_screen from '../images/first_screen.png'
-import second_screen from '../images/second_screen.png'
-import third_screen from '../images/third_screen.png'
+import first_screen from '../images/screen1.png'
+// import second_screen from '../images/second_screen.png'
+import second_screen from '../images/screen2.png'
+
+import third_screen from '../images/screen3.png'
 // import bad_tablet_screen from '../images/bad_tablet_screen.png'
 import male_testimony from '../images/male_testimony.png'
 import female_testimony from '../images/female_testimony.png'
@@ -98,7 +100,7 @@ const Home = () => {
 					<span className="testimonial_picture">
 						<img src={female_testimony} alt="female testimony"/>
 					</span>
-					<span className="testimonial_picture2">
+					<span className="testimonial_picture2_1">
 					<p id="testimonial_p">Top-notch service! The technician promptly fixed my phone, explained the issue, and gave valuable maintenance tips.</p>
 					</span>
 				</div>
@@ -111,7 +113,7 @@ const Home = () => {
 					</Link>
 				</div>
 				<div id="testimonials">
-					<span className="testimonial_picture2">
+					<span className="testimonial_picture2_2">
 					<p id="testimonial_p">The professionalism, technical expertise, and friendly demeanour made the repair experience seam-less. Highly recommend for anyone in need of reliable phone repairs</p>
 					</span>
 					<span className="testimonial_picture">
@@ -123,7 +125,11 @@ const Home = () => {
 			<div className="section">
 				<div id="find_your">
 					<div id="find_your_nearby_technician"><h1>Find your nearby Phone Technician</h1></div>
-					<div id="find_a_technician"><h2>Find a technician</h2></div>
+					<div id="find_a_technician">
+					<Link to="technician">
+					<h2>Find a technician</h2>
+					</Link>
+					</div>
 				</div>
 				<div id="why_us">
 					<h1 id="why_for_large_screen">WHY CHOOSE US?</h1>
