@@ -151,11 +151,8 @@
 	#why_us {
 		position: static;
 		min-height: 800px;
-		/*top:  1320px;*/
 		width: 100%;
-		/*background: green;*/
-		/*margin-left: 10%;*/
-		/*margin-bottom: 50px;*/
+		/*display: none;*/
 	}
 	#why_for_large_screen{
 		margin:170px 0px 0px 40%;
@@ -280,13 +277,12 @@
 	}
 	#text_content{
 		display: inline-block;
-		width: 272px;
-		/*min-height: 80px;*/
-		/*background: gold;*/
+		width: calc(100% - 80px);
 		margin-left: 5px;
 		font-size: 10px;
 		font-family: poppins;
 		color: #6F6F6F;
+		/*display: none;*/
 	}
 	#text_content h2{
 		font-weight: bold;
