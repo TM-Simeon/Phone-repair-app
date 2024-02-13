@@ -86,7 +86,7 @@
 	}
 	.more-questions{
 		background: #F0F0FD;
-		min-width: 390px;
+		min-width: 100%;
 		margin: 16px 0px 51px 0px;
 		margin-top: 24px;
 		border-radius: 10px;
@@ -94,16 +94,17 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		/*display: none;*/
 	}
 	#more-questions-text{
 		display: inline-block;
 		margin-left: 5%;
-		font-size: 12px;
+		font-size: 10px;
 	}
 	#more-questions-text h3{
 		font-family: poppins;
 		font-weight: 700;
-		font-size: 16px;
+		font-size: 14px;
 		line-height: 24px;
 		display: inline-block;
 		max-width: 224px;
@@ -114,7 +115,7 @@
 		width: 224px;
 		font-family: poppins;
 		font-weight: 400;
-		font-size: 12px;
+		font-size: 10px;
 		line-height: 18px;
 		color: #3D3D3D;
 	}
